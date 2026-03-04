@@ -499,4 +499,97 @@ FireLog includes a complete NFPA 25 checklist. Step through each section on your
 [Start digital sprinkler inspections →](https://app.firelog.pro)
 `,
   },
+  {
+    slug: "nfpa-25-2026-edition-changes",
+    title: "NFPA 25 2026 Edition: Key Changes Fire Protection Contractors Need to Know",
+    description: "Breaking down the most important updates in the NFPA 25 2026 edition — new inspection frequencies, documentation requirements, and what changes for your business.",
+    date: "2026-03-04",
+    content: `
+# NFPA 25 2026 Edition: Key Changes You Need to Know
+
+The 2026 edition of NFPA 25 (Standard for the Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems) brings several updates that fire protection contractors need to understand now — before your next AHJ inspection catches you off guard.
+
+## Why This Matters
+
+NFPA 25 is the standard that governs how sprinkler systems, standpipes, fire pumps, and water storage tanks are inspected and maintained after installation. If NFPA 13 tells you how to build it, NFPA 25 tells you how to keep it working.
+
+The 2026 edition refines requirements across multiple areas. Here's what matters most for contractors in the field.
+
+## Key Changes in the 2026 Edition
+
+### Enhanced Documentation Requirements
+
+The 2026 edition strengthens Section 4.3 documentation requirements. Inspection records now require more granular detail:
+
+- **Component-level identification** — each device inspected must be individually identified, not just grouped by system
+- **Deficiency severity classification** — findings must be categorized by severity (critical, non-critical, observation)
+- **Timeline for corrective action** — documented expected completion dates for all deficiencies, not just critical ones
+- **Digital records explicitly recognized** — the 2026 edition formally acknowledges digital inspection platforms as compliant record-keeping methods
+
+This is a big deal. If you're still using paper forms, you're not just slow — you're increasingly out of step with what AHJs expect.
+
+### Obstruction Investigation Updates
+
+Chapter 14 (Internal Conditions of Piping) has been refined:
+
+- **Trigger thresholds clarified** — clearer criteria for when an obstruction investigation is required vs. recommended
+- **MIC (Microbiologically Influenced Corrosion) testing** — expanded guidance on when biological testing is required
+- **Documentation of internal inspections** — photo documentation of pipe internals now recommended as best practice
+
+### Fire Pump Testing Refinements
+
+- **Annual flow test procedures** updated with clearer acceptance criteria
+- **Diesel engine fire pumps** — additional maintenance items for fuel system integrity
+- **Electric fire pump controllers** — updated test sequences for transfer switches
+
+### Antifreeze System Changes
+
+Antifreeze systems continue to be tightened:
+
+- **Concentration testing frequency** increased for certain occupancy types
+- **Pre-mixed solution requirements** reinforced — field mixing restrictions remain strict
+- **Maximum system size** guidance updated
+
+## What This Means for Your Business
+
+### 1. Upgrade Your Documentation
+
+If you're still handwriting inspection reports, the 2026 edition makes it even harder to stay compliant with paper. AHJs are increasingly expecting:
+
+- Individual device identification
+- Severity-classified deficiency lists
+- Photo documentation
+- Timestamped records
+
+Digital inspection software handles all of this automatically.
+
+### 2. Train Your Techs
+
+The new severity classification system means your inspectors need to understand the difference between critical and non-critical findings — and document them correctly.
+
+### 3. Update Your Checklists
+
+If you're using checklist templates from the 2020 or 2023 edition, review them against the 2026 changes. Missing new requirements means missed deficiencies, which means liability.
+
+## How FireLog Handles 2026 Compliance
+
+FireLog's NFPA 25 inspection templates are updated for the 2026 edition:
+
+- **Individual device tracking** — each sprinkler head, valve, and component gets its own record
+- **Built-in severity classification** — tap critical, non-critical, or observation for each finding
+- **Photo documentation** — snap photos inline, attached to the specific deficiency
+- **Automatic PDF reports** — branded, timestamped, AHJ-ready
+- **Corrective action tracking** — set due dates, assign responsibility, track completion
+
+Stop worrying about whether your paperwork meets the new standard. [Start your free trial →](https://app.firelog.pro)
+
+## Bottom Line
+
+The 2026 edition of NFPA 25 continues the trend toward more detailed, more accountable inspection documentation. For contractors still on paper, the gap between what you're doing and what's expected is growing every cycle.
+
+The good news: if you're already using digital inspection software, most of these changes are handled automatically. If you're not, now is the time to switch.
+
+[Try FireLog free for 14 days →](https://app.firelog.pro)
+`,
+  },
 ];
