@@ -17,5 +17,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPages];
+  const comparePages: MetadataRoute.Sitemap = [
+    { url: `${base}/compare/zenfire`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/compare/servicetrade`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/compare/paper`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ];
+
+  return [...staticPages, ...blogPages, ...comparePages];
 }
