@@ -1284,4 +1284,493 @@ At $79/month, FireLog pays for itself with one additional job per month. Everyth
 [Calculate your ROI — start free →](https://app.firelog.pro)
 `,
   },
+  {
+    slug: "fire-sprinkler-inspection-frequency-requirements",
+    title: "Fire Sprinkler Inspection Frequency: Complete NFPA 25 Schedule Guide",
+    description: "How often must fire sprinklers be inspected? Complete NFPA 25 frequency table for visual, functional, and full-flow tests — weekly through 20-year intervals.",
+    date: "2026-03-09",
+    content: `
+# Fire Sprinkler Inspection Frequency: Complete NFPA 25 Schedule Guide
+
+Missing a fire sprinkler inspection deadline isn't just a failed audit — it's a liability event. Building owners, property managers, and fire protection contractors all need to know exactly when each component is due.
+
+This guide breaks down every NFPA 25 inspection frequency requirement so you never miss a deadline.
+
+## Why Inspection Frequency Matters
+
+Insurance carriers and AHJs (Authorities Having Jurisdiction) don't accept "we check it every year" as a blanket answer. NFPA 25 specifies **different frequencies for different components** — and they range from weekly to every 20 years.
+
+Getting this wrong means:
+- **Failed inspections** and re-inspection fees
+- **Insurance premium increases** or policy cancellation
+- **Code violations** and potential fines
+- **Liability exposure** if a system fails during a fire
+
+## Complete NFPA 25 Inspection Frequency Table
+
+### Weekly/Monthly
+- **Gauges** on wet/dry/preaction/deluge systems — weekly or monthly visual
+- **Control valves** — weekly or monthly (locked/supervised valves monthly; others weekly)
+- **Fire pump condition** — weekly no-flow churn test
+
+### Quarterly
+- **Waterflow alarm devices** — quarterly test
+- **Fire pump flow test** — quarterly (some AHJs accept annual)
+- **Supervisory signal devices** — quarterly test
+
+### Semi-Annual
+- **Control valves** — semi-annual trip test (dry/preaction)
+
+### Annual
+- **Sprinkler heads** — annual visual inspection
+- **Pipe and fittings** — annual visual
+- **Hangers and bracing** — annual visual
+- **Spare sprinkler cabinet** — annual check (minimum 6 spares)
+- **Main drain test** — annual full-flow
+- **Antifreeze solution** — annual concentration test
+- **FDC (Fire Department Connection)** — annual visual and accessibility
+
+### 5-Year
+- **Internal pipe inspection** — 5-year obstruction investigation
+- **Dry/preaction valve trip test** — full flow every 5 years
+- **Gauges** — 5-year replacement or recalibration
+- **Sprinkler heads** — 5-year lab sample test (fast-response after 20 years, standard after 50)
+
+### 10-Year
+- **Sprinkler heads (fast-response)** — 10-year lab sample after initial 20-year mark, then every 10
+- **FDC check valves** — 10-year internal inspection
+
+### 20-Year
+- **Standard sprinkler heads** — first lab sample test at 50 years, then every 10 years after (residential/fast-response: 20 years, then every 10)
+
+## How to Track All This Without Losing Your Mind
+
+If you're running inspections across 50+ buildings with different system types and installation dates, spreadsheets break fast. You need:
+
+1. **Automated scheduling** based on component type and last inspection date
+2. **Mobile access** so techs see what's due on-site
+3. **Compliance alerts** before deadlines, not after
+
+[FireLog tracks all NFPA 25 frequencies automatically — start free →](https://app.firelog.pro)
+
+## Common Mistakes
+
+**Mistake 1: Treating everything as annual.** Gauges, control valves, and fire pumps need attention far more often than once a year.
+
+**Mistake 2: Forgetting 5-year internals.** The 5-year obstruction investigation is the most commonly missed inspection — and it's a major insurance audit flag.
+
+**Mistake 3: No documentation trail.** Even if you do every inspection on time, without records, it didn't happen. AHJs and insurance adjusters need dates, findings, and tech signatures.
+
+## Bottom Line
+
+NFPA 25 compliance isn't one inspection — it's a matrix of dozens of components on different schedules. The fire protection contractors who win are the ones who never miss a deadline and can prove it.
+
+[Track every frequency automatically with FireLog →](https://app.firelog.pro)
+`,
+  },
+  {
+    slug: "fire-protection-contractor-insurance-requirements",
+    title: "Insurance Requirements for Fire Protection Contractors (2026 Guide)",
+    description: "What insurance do fire protection contractors need? GL, E&O, workers' comp, commercial auto — coverage requirements, typical costs, and how documentation helps.",
+    date: "2026-03-09",
+    content: `
+# Insurance Requirements for Fire Protection Contractors (2026 Guide)
+
+Every fire protection contractor needs insurance — but the wrong coverage or missing certificates can cost you contracts. Here's what you actually need, what it costs, and how to keep your documentation tight.
+
+## Required Insurance Types
+
+### General Liability (GL)
+- **Minimum:** $1M per occurrence / $2M aggregate (most commercial contracts require this)
+- **What it covers:** Bodily injury, property damage, completed operations
+- **Typical cost:** $2,000-$6,000/year for a small shop
+- **Why it matters:** Most property managers won't let you on-site without a current GL certificate
+
+### Professional Liability / Errors & Omissions (E&O)
+- **Minimum:** $1M (increasingly required for inspection/design work)
+- **What it covers:** Mistakes in inspection reports, design errors, missed deficiencies
+- **Typical cost:** $1,500-$4,000/year
+- **Why it matters:** If your inspection report says "pass" and the system fails during a fire, E&O is what stands between you and bankruptcy
+
+### Workers' Compensation
+- **Required in:** Nearly every state (sole proprietors may be exempt in some)
+- **What it covers:** Employee injuries on the job
+- **Typical cost:** Varies wildly by state — $3-$15 per $100 of payroll for fire protection work (class code 5183)
+- **Why it matters:** No workers' comp = no employees. And general contractors won't sub you without it.
+
+### Commercial Auto
+- **Minimum:** $1M combined single limit
+- **What it covers:** Vehicles used for business (service vans, truck-mounted equipment)
+- **Typical cost:** $1,200-$3,000/year per vehicle
+
+### Umbrella / Excess Liability
+- **When needed:** Larger contracts ($5M+ buildings, hospitals, government work)
+- **Typical:** $1M-$5M umbrella over GL + auto
+- **Cost:** $500-$2,000/year for $1M umbrella
+
+## Certificate of Insurance (COI) Management
+
+The #1 administrative headache for fire protection contractors: **every building manager wants a current COI before you show up.**
+
+Best practices:
+- Keep a digital master COI you can email in minutes
+- Set renewal reminders 30 days before expiration
+- Track which clients need updated certificates
+- Store COIs alongside inspection records for audit readiness
+
+## How Documentation Reduces Your Premiums
+
+Insurance underwriters look at your **loss history and risk management practices.** Fire protection contractors who can demonstrate:
+
+- **Consistent inspection documentation** (every job has a signed report)
+- **Deficiency tracking** (you flagged issues and followed up)
+- **Training records** (techs are NICET-certified, up to date)
+
+...often qualify for **10-20% premium reductions.** Your inspection records are literally insurance evidence.
+
+## The Digital Paper Trail
+
+When an insurance claim happens — yours or your client's — the first question is always: "Where's the documentation?"
+
+If your reports are on paper in a filing cabinet, good luck finding the right one fast. If they're in a digital system with timestamps, signatures, and photos — you're covered.
+
+[FireLog keeps your inspection records audit-ready — start free →](https://app.firelog.pro)
+
+## Action Items
+
+1. **Audit your current coverage** against the minimums above
+2. **Digitize your COI** and set renewal reminders
+3. **Start documenting every inspection digitally** — it's both compliance and insurance protection
+4. **Ask your broker** about documentation-based premium discounts
+
+Your insurance is only as good as your documentation. Build the paper trail before you need it.
+
+[Get audit-ready documentation with FireLog →](https://app.firelog.pro)
+`,
+  },
+  {
+    slug: "how-to-win-fire-inspection-contracts",
+    title: "How to Win More Fire Inspection Contracts (7 Proven Strategies)",
+    description: "Practical strategies fire protection contractors use to win more inspection contracts — from professional reports to recurring revenue models.",
+    date: "2026-03-09",
+    content: `
+# How to Win More Fire Inspection Contracts (7 Proven Strategies)
+
+Most fire protection contractors get work through referrals and repeat business. That works — until it doesn't. Here are 7 strategies that the fastest-growing inspection companies use to win new contracts consistently.
+
+## 1. Lead With Professional Reports
+
+Building managers compare proposals. If your competitor sends a one-page handwritten form and you send a branded PDF with photos, deficiency tracking, and compliance summaries — you win.
+
+**Your report is your resume.** Every inspection report you deliver is a sales document for the next contract.
+
+What winning reports include:
+- Your company logo and branding
+- Photo documentation of every system inspected
+- Clear pass/fail with NFPA code references
+- Prioritized deficiency list with correction quotes
+- Digital signature from the tech
+
+## 2. Bundle Inspections for Recurring Revenue
+
+The smartest fire protection companies don't sell one-off inspections. They sell **annual inspection programs:**
+
+- "We'll handle all your NFPA 10, 25, and 72 inspections for $X/year"
+- Quarterly, semi-annual, and annual visits included
+- One contract, one invoice, one vendor to manage
+
+Building managers love simplicity. Bundle your services and you'll close faster and retain longer.
+
+## 3. Upsell Through Deficiency Tracking
+
+Every deficiency you find is a correction proposal waiting to happen. The contractors who track deficiencies systematically generate **30-50% of their revenue from correction work.**
+
+The key: make it easy to quote corrections from your inspection findings. If your deficiency report includes photos, NFPA references, and priority levels — the correction proposal writes itself.
+
+## 4. Target Property Management Companies
+
+Individual building owners are one contract at a time. Property management companies manage **dozens or hundreds of buildings.** Win one relationship and you could get 50 buildings.
+
+How to approach:
+- Research local PM companies with commercial portfolios
+- Send a sample inspection report (your best work)
+- Offer a free initial inspection on one building
+- Emphasize your compliance documentation and reporting
+
+## 5. Get on Approved Vendor Lists
+
+Many large property owners, hospitals, and government agencies maintain **approved vendor lists.** Getting on the list means you're pre-qualified when they need inspection work.
+
+Common lists to target:
+- City/county/state government vendor registries
+- Hospital system approved contractors
+- University facilities management vendors
+- Federal GSA Schedule (if you want government work)
+
+## 6. Leverage AHJ Relationships
+
+Fire marshals and AHJ inspectors see bad inspection reports every day. When they see a contractor who does clean, thorough, well-documented work — they remember.
+
+Some AHJs maintain referral lists. Others informally recommend contractors to building owners who fail inspections. Be the contractor they recommend.
+
+## 7. Modernize Your Operations
+
+This isn't just about software — it's about perception. When you show up with a tablet, take photos, generate a PDF report on-site, and email it before you leave the building — you look like a **professional operation.**
+
+Compare that to the guy with a clipboard and a promise to "mail the report next week."
+
+Building managers are making a risk decision when they hire you. Everything about your operation should say "we take this seriously."
+
+[FireLog makes you look like the most professional inspector in the room — start free →](https://app.firelog.pro)
+
+## The Common Thread
+
+Notice what all 7 strategies have in common: **documentation quality.** Your reports, your tracking, your professionalism — it all comes down to how well you document what you do.
+
+The contractors who invest in their documentation infrastructure win more contracts, retain more clients, and generate more correction revenue. Period.
+
+[Build your documentation advantage with FireLog →](https://app.firelog.pro)
+`,
+  },
+  {
+    slug: "nfpa-inspection-deficiency-codes-guide",
+    title: "NFPA Inspection Deficiency Codes: What They Mean and How to Prioritize",
+    description: "Understanding fire inspection deficiency classifications — critical, non-critical, and advisory — and how to prioritize corrections for NFPA compliance.",
+    date: "2026-03-09",
+    content: `
+# NFPA Inspection Deficiency Codes: What They Mean and How to Prioritize
+
+Finding deficiencies during a fire inspection is expected. Knowing how to **classify, prioritize, and communicate** them is what separates good inspectors from great ones.
+
+## Deficiency Classification Levels
+
+While NFPA standards don't prescribe a universal "deficiency code" system, the industry has standardized around three priority levels that AHJs and insurance carriers recognize:
+
+### Critical Deficiencies
+- **Definition:** Conditions that could cause system failure during a fire event
+- **Examples:**
+  - Closed control valve (system won't flow water)
+  - Missing or painted-over sprinkler heads
+  - Fire pump failure to start
+  - Blocked FDC access
+  - Expired fire extinguishers in egress paths
+- **Required action:** Immediate correction (24-48 hours)
+- **Reporting:** Must be reported to building owner AND AHJ immediately
+
+### Non-Critical Deficiencies
+- **Definition:** Conditions that reduce system reliability but don't cause immediate failure
+- **Examples:**
+  - Corroded pipe (not yet leaking)
+  - Spare sprinkler cabinet below minimum count
+  - Gauge out of calibration
+  - Minor obstruction to sprinkler coverage
+  - Faded signage
+- **Required action:** Correction within 30-90 days
+- **Reporting:** Documented in inspection report with recommended correction timeline
+
+### Advisory / Maintenance Items
+- **Definition:** Recommendations for optimal performance, not code violations
+- **Examples:**
+  - Painting pipes for corrosion prevention
+  - Upgrading to current-model sprinkler heads
+  - Adding signage beyond minimum requirements
+  - System design improvements for new building uses
+- **Required action:** Optional, recommended at next service visit
+- **Reporting:** Included in report as recommendations
+
+## Why Classification Matters
+
+### For the Building Owner
+Clear classification helps building owners allocate budget and urgency correctly. "You have 3 critical items that need attention this week and 7 maintenance items for your next budget cycle" is actionable. A flat list of 10 deficiencies with no prioritization creates confusion and inaction.
+
+### For the Inspector
+Your deficiency classification directly affects your **credibility and liability:**
+- Mark everything critical → building owner thinks you're upselling
+- Miss a critical item → you're liable if the system fails
+- Clear, justified classification → you're the trusted expert
+
+### For Insurance
+Insurance auditors look at deficiency reports to assess building risk. Clear classification with NFPA code references makes their job easy — which makes your client's renewal easier — which makes you harder to replace.
+
+## Best Practices for Deficiency Documentation
+
+### 1. Always Include the NFPA Reference
+Don't just write "sprinkler head painted over." Write: "Sprinkler head painted over — NFPA 25, Section 5.2.1.1.1 requires sprinkler heads to be free of paint, corrosion, and loading."
+
+Code references make your findings defensible and educational.
+
+### 2. Photo-Document Everything
+A photo of a painted-over sprinkler head is worth more than a paragraph describing it. Best practice:
+- Wide shot showing location in the building
+- Close-up showing the specific deficiency
+- Reference photo showing what "correct" looks like (when applicable)
+
+### 3. Include Correction Recommendations
+For each deficiency, note:
+- What needs to be done
+- Estimated timeline for correction
+- Whether it requires a licensed contractor or can be handled in-house
+
+### 4. Track Deficiency History
+The most valuable thing you can show a building owner: "Here's what we found last year, here's what was corrected, and here's what's new." Deficiency trending over time demonstrates system health and your value as an inspector.
+
+## Digital vs. Paper Deficiency Tracking
+
+Paper deficiency tracking fails in three predictable ways:
+1. **Lost records** — the form from 2 years ago is gone
+2. **No trending** — you can't see patterns across inspections
+3. **No accountability** — corrections aren't tracked to completion
+
+Digital deficiency tracking with a tool like FireLog gives you:
+- Persistent deficiency history across all inspections
+- Automatic priority classification
+- Photo documentation attached to each finding
+- Correction tracking with status and dates
+- Report generation that includes historical trends
+
+[Track deficiencies professionally with FireLog →](https://app.firelog.pro)
+
+## Common Deficiency Mistakes
+
+**Mistake 1: No follow-up on corrections.** Finding deficiencies is half the job. Following up to verify corrections is the other half — and it's where most contractors drop the ball.
+
+**Mistake 2: Inconsistent classification.** If Tech A calls something critical and Tech B calls the same thing advisory, your company looks unprofessional. Standardize your classification criteria.
+
+**Mistake 3: Deficiency reports without context.** "Gauge reads 0 PSI" is a finding. "Gauge reads 0 PSI — system may not be charged, verify main control valve is open immediately" is a useful report.
+
+## Build Your Deficiency Process
+
+A strong deficiency management process is a competitive advantage. It generates correction revenue, builds trust with building owners, satisfies AHJ requirements, and keeps insurance carriers happy.
+
+Invest in getting this right — it pays back in every direction.
+
+[Start tracking deficiencies with FireLog →](https://app.firelog.pro)
+`,
+  },
+  {
+    slug: "fire-inspection-compliance-audit-preparation",
+    title: "How to Prepare for a Fire Inspection Compliance Audit (AHJ & Insurance)",
+    description: "Step-by-step guide to preparing for fire inspection audits from AHJs and insurance carriers — documentation, common findings, and how to pass every time.",
+    date: "2026-03-09",
+    content: `
+# How to Prepare for a Fire Inspection Compliance Audit
+
+Whether it's an AHJ (Authority Having Jurisdiction) audit or an insurance carrier review, fire inspection compliance audits come down to one thing: **can you prove your systems are maintained?**
+
+This guide covers what auditors look for, how to prepare, and how to pass every time.
+
+## What Triggers an Audit?
+
+### AHJ Audits
+- Routine annual or biennial inspections
+- Complaint from tenant or occupant
+- Post-incident investigation
+- Change of building occupancy or use
+- New construction certificate of occupancy
+
+### Insurance Audits
+- Policy renewal review
+- Post-loss investigation
+- Risk engineering survey (usually every 3-5 years)
+- Premium classification review
+- Building acquisition or ownership change
+
+## What Auditors Look For
+
+### Documentation Requirements
+1. **Current inspection reports** for all fire protection systems
+2. **Inspection history** (minimum 3-5 years of records)
+3. **Deficiency logs** with correction dates and verification
+4. **Impairment records** (any system outages and notifications)
+5. **ITM (Inspection, Testing, and Maintenance) schedules** showing compliance with NFPA frequencies
+6. **Contractor credentials** (NICET certification, state licenses, insurance)
+7. **As-built drawings** and system design documentation
+
+### Physical Inspection Points
+- Control valves accessible and in correct position
+- Sprinkler heads clean, unobstructed, correct temperature rating
+- Fire pump operational (start-up test)
+- Alarm systems functional (signal test)
+- Fire extinguishers current, mounted, accessible
+- FDC accessible and caps in place
+- Signage complete and legible
+
+## The 30-Day Audit Prep Checklist
+
+### Week 1: Gather Documentation
+- [ ] Collect all inspection reports from the last 5 years
+- [ ] Organize by system type (sprinkler, alarm, extinguisher, suppression)
+- [ ] Verify all reports have tech signatures and dates
+- [ ] Pull deficiency logs and correction records
+- [ ] Gather contractor license and insurance certificates
+
+### Week 2: Verify Compliance
+- [ ] Check every system against its NFPA inspection frequency
+- [ ] Identify any overdue inspections or tests
+- [ ] Schedule emergency inspections for anything out of compliance
+- [ ] Verify spare sprinkler cabinet inventory
+- [ ] Confirm fire pump weekly test logs are current
+
+### Week 3: Physical Walk-Through
+- [ ] Walk every floor and verify sprinkler coverage
+- [ ] Check all control valves (open, locked, tamper-sealed)
+- [ ] Verify fire extinguisher tags and accessibility
+- [ ] Test sample alarm pull stations
+- [ ] Verify FDC access and condition
+- [ ] Check exit/egress lighting and signage
+
+### Week 4: Final Preparation
+- [ ] Organize all documentation in a single binder or digital folder
+- [ ] Create a cover sheet summarizing all systems and their status
+- [ ] Prepare a list of known deficiencies with correction plans
+- [ ] Brief maintenance staff on audit expectations
+- [ ] Confirm escort availability for auditor walk-through
+
+## How to Handle Audit Findings
+
+### During the Audit
+- **Be present.** Walk with the auditor. Answer questions directly.
+- **Don't hide deficiencies.** Auditors find them anyway — and hidden deficiencies look worse than acknowledged ones.
+- **Show your correction process.** "We found this last quarter and here's our correction plan" is a winning answer.
+- **Take notes.** Document everything the auditor flags, even verbally.
+
+### After the Audit
+- **Respond in writing** to any findings within 30 days
+- **Document corrections** with photos and dates
+- **Update your inspection records** immediately
+- **Schedule follow-up inspections** for any corrections made
+
+## Common Audit Failures (and How to Avoid Them)
+
+**#1: Missing records.** The single most common audit failure. If you can't produce 3 years of inspection reports, you fail. Period.
+
+**#2: Overdue inspections.** NFPA 25 requires quarterly, semi-annual, annual, and 5-year inspections. Missing any of these shows up immediately.
+
+**#3: Unresolved deficiencies.** Finding deficiencies is fine. Not correcting them — or not documenting corrections — is a failure.
+
+**#4: Expired contractor credentials.** If your inspector's NICET certification expired 6 months ago, every report they signed is questionable.
+
+**#5: No impairment procedures.** If a system was taken out of service for any reason and you didn't document the impairment notice, fire watch, and restoration — that's a violation.
+
+## The Digital Advantage
+
+Fire inspection companies using digital documentation tools pass audits at significantly higher rates because:
+
+- **Records are searchable** — find any report in seconds, not hours
+- **Nothing gets lost** — digital records don't disappear in a move or flood
+- **History is automatic** — every inspection builds on the previous one
+- **Deficiency tracking is built in** — corrections are linked to findings
+- **Credentials stay current** — expiration alerts prevent lapses
+
+[Get audit-ready with FireLog — start free →](https://app.firelog.pro)
+
+## Your Audit Insurance Policy
+
+The best time to prepare for an audit is **every day.** If every inspection is documented, every deficiency is tracked, and every correction is verified — the audit is just a formality.
+
+Build the process now. Your future self (and your clients) will thank you.
+
+[Start building your audit-ready process with FireLog →](https://app.firelog.pro)
+`,
+  },
 ];
