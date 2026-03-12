@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
-  Flame,
   Shield,
   Smartphone,
   WifiOff,
@@ -14,7 +13,6 @@ import {
   PenTool,
   BarChart3,
   Zap,
-  Clock,
   Check,
   X,
   ArrowRight,
@@ -24,7 +22,6 @@ import {
   Droplets,
   Bell,
   DoorOpen,
-  Menu,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -35,7 +32,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { useState } from "react";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 24 },
@@ -178,50 +176,9 @@ function ComparisonCell({ value }: { value: string | boolean }) {
 }
 
 export default function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-white text-foreground">
-      {/* Nav */}
-      <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/80">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Flame className="size-6 text-red-600" />
-            <span className="text-xl font-bold tracking-tight">FireLog</span>
-          </div>
-          <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
-            <a href="#features" className="hover:text-foreground transition-colors">Features</a>
-            <a href="#templates" className="hover:text-foreground transition-colors">Templates</a>
-            <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
-            <a href="#compare" className="hover:text-foreground transition-colors">Compare</a>
-            <Link href="/blog" className="hover:text-foreground transition-colors">Blog</Link>
-          </div>
-          <div className="flex items-center gap-3">
-            <Button asChild size="sm" className="hidden sm:inline-flex">
-              <Link href="https://app.firelog.pro">Start Free Trial</Link>
-            </Button>
-            <button
-              className="md:hidden p-2"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label="Toggle menu"
-            >
-              <Menu className="size-5" />
-            </button>
-          </div>
-        </div>
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-xl px-6 py-4 space-y-3">
-            <a href="#features" className="block text-sm text-muted-foreground hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Features</a>
-            <a href="#templates" className="block text-sm text-muted-foreground hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Templates</a>
-            <a href="#pricing" className="block text-sm text-muted-foreground hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Pricing</a>
-            <a href="#compare" className="block text-sm text-muted-foreground hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Compare</a>
-            <Link href="/blog" className="block text-sm text-muted-foreground hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
-            <Button asChild size="sm" className="w-full">
-              <Link href="https://app.firelog.pro">Start Free Trial</Link>
-            </Button>
-          </div>
-        )}
-      </nav>
+      <Header />
 
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-24">
@@ -780,25 +737,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#0f172a] text-white py-12">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="flex items-center gap-2">
-              <Flame className="size-5 text-red-500" />
-              <span className="font-bold tracking-tight">FireLog</span>
-            </div>
-            <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-400">
-              <a href="#features" className="hover:text-white transition-colors">Features</a>
-              <a href="#templates" className="hover:text-white transition-colors">Templates</a>
-              <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
-              <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-              <a href="mailto:hello@firelog.pro" className="hover:text-white transition-colors">Contact</a>
-            </div>
-            <p className="text-sm text-slate-500">&copy; 2026 FireLog. An Arcline product.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
