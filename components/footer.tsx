@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.svg" alt="FireLog" width={120} height={32} className="invert" />
+            <Image src="/logo-light.svg" alt="FireLog" width={120} height={32} />
           </Link>
           <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-400">
             <Link href="/features" className="hover:text-white transition-colors">Features</Link>

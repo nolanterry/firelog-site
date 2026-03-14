@@ -17,6 +17,10 @@ export const metadata: Metadata = {
       "NFPA-compliant inspection software for fire protection contractors. Mobile forms, branded PDFs, deficiency tracking. $79/mo.",
     type: "website",
   },
+  icons: {
+    icon: [{ url: "/favicon-32.png", sizes: "32x32", type: "image/png" }],
+    apple: [{ url: "/apple-touch-icon.png" }],
+  },
 };
 
 export default function RootLayout({
