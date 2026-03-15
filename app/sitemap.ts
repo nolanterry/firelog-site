@@ -24,5 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/compare/paper`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
-  return [...staticPages, ...blogPages, ...comparePages];
+  const legalPages: MetadataRoute.Sitemap = [
+    { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+  ];
+
+  return [...staticPages, ...blogPages, ...comparePages, ...legalPages];
 }

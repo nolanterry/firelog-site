@@ -18,6 +18,10 @@ export function Footer() {
             <Link href="/help" className="hover:text-white transition-colors">Help</Link>
             <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
           </div>
+          <div className="flex gap-6 text-sm text-slate-400">
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
+          </div>
           <p className="text-sm text-slate-500">&copy; 2026 FireLog. An Arcline product.</p>
         </div>
       </div>
