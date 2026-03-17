@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "NFPA Compliance Inspection Software | FireLog",
   description: "Built-in NFPA 10, 13, 25, 72, and 80 inspection checklists. Digital forms, deficiency tracking, and audit-ready reports for fire protection contractors.",
   robots: { index: false, follow: false },
+  alternates: { canonical: "/lp/nfpa-compliance-software" },
 };
 
 const NFPA_CODES = [

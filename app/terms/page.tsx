@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service — FireLog",
   description: "FireLog terms of service — the agreement between you and FireLog.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

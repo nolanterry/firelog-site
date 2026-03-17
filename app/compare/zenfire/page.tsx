@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "FireLog vs ZenFire — Fire Inspection Software Comparison | FireLog",
   description: "Compare FireLog and ZenFire (ZenTrades) for fire inspection software. Features, pricing, and which is better for small fire protection companies.",
+  alternates: { canonical: "/compare/zenfire" },
 };
 
 export default function CompareZenFire() {

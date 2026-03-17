@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "FireLog vs ServiceTrade — Fire Inspection Software Comparison | FireLog",
   description: "Compare FireLog and ServiceTrade for fire inspection software. Features, pricing, and which is better for small fire protection companies.",
+  alternates: { canonical: "/compare/servicetrade" },
 };
 
 export default function CompareServiceTrade() {

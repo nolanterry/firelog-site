@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export const metadata: Metadata = {
   title: "Blog — Fire Inspection Tips & NFPA Compliance Guides | FireLog",
   description: "Expert guides on fire inspections, NFPA compliance, and growing your fire protection business.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {

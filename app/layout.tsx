@@ -8,6 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://firelog.pro"),
   title: "FireLog — Digital Fire Inspection Reports (NFPA Compliant)",
   description:
     "Replace paper inspection checklists with mobile-first NFPA forms. Branded PDF reports, deficiency tracking, and compliance documentation. $79/mo, unlimited users.",

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     title: "FireLog Help Center",
     description: "Everything you need to run compliant fire inspections with FireLog.",
   },
+  alternates: { canonical: "/help" },
 };
 
 export default function HelpPage() {

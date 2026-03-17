@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Digital Fire Inspection Software | FireLog",
   description: "Replace paper inspection checklists with mobile-first NFPA forms. Branded PDF reports, deficiency tracking, and compliance documentation. $79/mo, unlimited users.",
   robots: { index: false, follow: false },
+  alternates: { canonical: "/lp/fire-inspection-software" },
 };
 
 const PAIN_POINTS = [

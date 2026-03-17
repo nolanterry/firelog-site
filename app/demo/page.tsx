@@ -7,6 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Book a Demo — See FireLog in Action",
   description: "Schedule a personalized demo of FireLog fire inspection software. See NFPA-compliant digital checklists, deficiency tracking, and branded PDF reports.",
+  alternates: { canonical: "/demo" },
 };
 
 const DEMO_INCLUDES = [

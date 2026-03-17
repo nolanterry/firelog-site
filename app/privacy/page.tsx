@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy — FireLog",
   description: "FireLog privacy policy — how we collect, use, and protect your data.",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {

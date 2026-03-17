@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "FireLog vs Paper Inspection Logs — Why Go Digital | FireLog",
   description: "Still using paper for fire inspection reports? Here's what it's costing you in time, compliance risk, and lost revenue.",
+  alternates: { canonical: "/compare/paper" },
 };
 
 export default function ComparePaper() {
