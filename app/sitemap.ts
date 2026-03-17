@@ -23,6 +23,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const changelogPages: MetadataRoute.Sitemap = [
+    { url: `${base}/changelog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+  ];
+
   const comparePages: MetadataRoute.Sitemap = [
     { url: `${base}/compare/zenfire`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/servicetrade`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -34,5 +38,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  return [...staticPages, ...blogPages, ...comparePages, ...legalPages];
+  return [...staticPages, ...blogPages, ...changelogPages, ...comparePages, ...legalPages];
 }
