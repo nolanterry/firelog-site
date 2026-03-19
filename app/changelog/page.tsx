@@ -84,7 +84,7 @@ export default function ChangelogPage() {
   return (
     <>
       <Header />
-      <main className="pt-16">
+      <main id="main-content" className="pt-16">
         {/* Hero */}
         <section className="py-20 text-center px-4 bg-gradient-to-b from-orange-50 to-white">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Changelog</h1>

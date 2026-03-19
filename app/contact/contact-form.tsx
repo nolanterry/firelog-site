@@ -38,7 +38,9 @@ export function ContactForm() {
             type="text"
             id="name"
             name="name"
+            autoComplete="name"
             required
+            aria-required="true"
             className="w-full rounded-xl border border-border bg-white px-4 py-2.5 text-sm outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500/20 transition-all"
             placeholder="John Smith"
           />
@@ -51,7 +53,9 @@ export function ContactForm() {
             type="email"
             id="email"
             name="email"
+            autoComplete="email"
             required
+            aria-required="true"
             className="w-full rounded-xl border border-border bg-white px-4 py-2.5 text-sm outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500/20 transition-all"
             placeholder="john@company.com"
           />
@@ -67,6 +71,7 @@ export function ContactForm() {
             id="company"
             name="company"
             required
+            aria-required="true"
             className="w-full rounded-xl border border-border bg-white px-4 py-2.5 text-sm outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500/20 transition-all"
             placeholder="ABC Fire Protection"
           />
@@ -92,6 +97,7 @@ export function ContactForm() {
           id="message"
           name="message"
           required
+            aria-required="true"
           rows={5}
           className="w-full rounded-xl border border-border bg-white px-4 py-2.5 text-sm outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500/20 transition-all resize-none"
           placeholder="Tell us about your fire protection business and how we can help..."

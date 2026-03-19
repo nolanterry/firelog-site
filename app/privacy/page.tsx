@@ -12,7 +12,7 @@ export default function PrivacyPage() {
   return (
     <>
       <Header />
-      <main className="py-20 bg-white">
+      <main id="main-content" className="py-20 bg-white">
         <article className="max-w-3xl mx-auto px-4 prose prose-gray">
           <h1>Privacy Policy</h1>
           <p className="text-sm text-gray-500">Last updated: March 15, 2026</p>

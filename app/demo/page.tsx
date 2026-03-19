@@ -35,7 +35,7 @@ export default function DemoPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="bg-white py-20 px-4 border-b border-gray-100">
           <div className="max-w-5xl mx-auto">
@@ -123,10 +123,12 @@ export default function DemoPage() {
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
                   <input type="text" id="name" name="name" required className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all" placeholder="Steve Martinez" />
+            autoComplete="name"
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Work Email *</label>
                   <input type="email" id="email" name="email" required className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all" placeholder="steve@fireprotection.com" />
+            autoComplete="email"
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-6">

@@ -44,7 +44,7 @@ const SIGNUP_URL = "https://app.firelog.pro";
 
 export default function LPNFPAComplianceSoftware() {
   return (
-    <main className="min-h-screen bg-white text-gray-700">
+    <main id="main-content" className="min-h-screen bg-white text-gray-700">
       {/* Minimal header */}
       <div className="border-b border-gray-200 py-4 px-4">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
