@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { BLOG_POSTS } from "@/lib/blog";
 import { Flame, ArrowLeft, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { NewsletterSignup } from "@/components/newsletter-signup";
 
 export function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({ slug: post.slug }));
@@ -100,6 +101,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           className="prose prose-lg max-w-none prose-headings:tracking-tight prose-headings:text-foreground prose-a:text-red-600 prose-a:no-underline hover:prose-a:underline prose-p:text-muted-foreground prose-li:text-muted-foreground prose-strong:text-foreground"
           dangerouslySetInnerHTML={{ __html: markdownToHtml(post.content) }}
         />
+        <div className="not-prose">
+          <NewsletterSignup />
+        </div>
       </article>
     </div>
   );

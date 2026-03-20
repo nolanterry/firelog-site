@@ -1,3 +1,4 @@
+import { NewsletterSignup } from "@/components/newsletter-signup";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { BLOG_POSTS } from "@/lib/blog";
@@ -72,6 +73,7 @@ export default function BlogPage() {
             </Link>
           ))}
         </div>
+        <div className="max-w-3xl mx-auto"><NewsletterSignup /></div>
       </div>
     </div>
   );
