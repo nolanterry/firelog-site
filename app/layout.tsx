@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ExitIntentPopup } from "@/components/exit-intent-popup";
 import { CookieConsent } from "@/components/cookie-consent";
+import { PromoBar } from "@/components/promo-bar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -152,6 +153,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased`}>
+        <PromoBar />
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>
