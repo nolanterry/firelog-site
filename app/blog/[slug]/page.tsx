@@ -5,6 +5,8 @@ import { BLOG_POSTS } from "@/lib/blog";
 import { Flame, ArrowLeft, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 
 export function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({ slug: post.slug }));
@@ -74,6 +76,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     <div className="min-h-screen bg-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <ReadingProgressBar />
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/80">
         <div className="max-w-3xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
@@ -97,6 +100,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <Calendar className="size-3.5" />
           {post.date}
         </div>
+        <TableOfContents />
         <div
           className="prose prose-lg max-w-none prose-headings:tracking-tight prose-headings:text-foreground prose-a:text-red-600 prose-a:no-underline hover:prose-a:underline prose-p:text-muted-foreground prose-li:text-muted-foreground prose-strong:text-foreground"
           dangerouslySetInnerHTML={{ __html: markdownToHtml(post.content) }}
