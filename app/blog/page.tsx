@@ -2,9 +2,9 @@ import { NewsletterSignup } from "@/components/newsletter-signup";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { BLOG_POSTS } from "@/lib/blog";
-import { Flame, ArrowRight, Calendar } from "lucide-react";
+import { Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { BlogSearch } from "@/components/blog-search";
 
 export const metadata: Metadata = {
   title: "Blog — Fire Inspection Tips & NFPA Compliance Guides | FireLog",
@@ -51,28 +51,7 @@ export default function BlogPage() {
         <p className="text-muted-foreground mb-12">
           Fire inspection guides, NFPA compliance tips, and business growth strategies.
         </p>
-        <div className="grid gap-6">
-          {BLOG_POSTS.map((post) => (
-            <Link key={post.slug} href={`/blog/${post.slug}`} className="block group">
-              <Card className="hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 rounded-2xl border-border/50">
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
-                    <Calendar className="size-3.5" />
-                    {post.date}
-                  </div>
-                  <h2 className="text-xl font-semibold group-hover:text-red-600 transition-colors mb-2">
-                    {post.title}
-                  </h2>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{post.description}</p>
-                  <div className="flex items-center gap-1 text-red-600 text-sm font-medium mt-3">
-                    Read more
-                    <ArrowRight className="size-3.5 group-hover:translate-x-0.5 transition-transform" />
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
-          ))}
-        </div>
+        <BlogSearch posts={BLOG_POSTS.map(p => ({ slug: p.slug, title: p.title, description: p.description, date: p.date, tags: p.tags }))} />
         <div className="max-w-3xl mx-auto"><NewsletterSignup /></div>
       </div>
     </div>
