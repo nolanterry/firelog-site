@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { ReadingProgressBar } from "@/components/reading-progress";
 import { TableOfContents } from "@/components/table-of-contents";
+import { RelatedPosts } from "@/components/related-posts";
 
 export function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({ slug: post.slug }));
@@ -106,6 +107,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           dangerouslySetInnerHTML={{ __html: markdownToHtml(post.content) }}
         />
         <div className="not-prose">
+          <RelatedPosts currentSlug={slug} />
           <NewsletterSignup />
         </div>
       </article>

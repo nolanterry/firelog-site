@@ -3,12 +3,24 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  tags: string[];
   content: string;
+}
+
+export function getRelatedPosts(currentSlug: string, count = 3): BlogPost[] {
+  const current = BLOG_POSTS.find((p) => p.slug === currentSlug);
+  if (!current) return BLOG_POSTS.filter((p) => p.slug !== currentSlug).slice(0, count);
+  const scored = BLOG_POSTS
+    .filter((p) => p.slug !== currentSlug)
+    .map((p) => ({ ...p, score: p.tags.filter((t) => current.tags.includes(t)).length }))
+    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
+  return scored.slice(0, count);
 }
 
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "best-fire-inspection-software-2026",
+    tags: ["comparison", "software", "industry-trends"],
     title: "Best Fire Inspection Software in 2026 (Compared)",
     description: "We compared the top fire inspection tools for small to mid-size fire protection companies — pricing, features, and what real inspectors say.",
     date: "2026-03-03",
@@ -86,6 +98,7 @@ The days of paying $200/user/month for what is essentially a digital checklist a
   },
   {
     slug: "nfpa-10-fire-extinguisher-inspection-checklist",
+    tags: ["nfpa", "checklist", "extinguisher"],
     title: "NFPA 10 Fire Extinguisher Inspection Checklist (2026 Complete Guide)",
     description: "The complete NFPA 10 fire extinguisher inspection checklist — what to check, how often, and documentation requirements.",
     date: "2026-03-03",
@@ -169,6 +182,7 @@ FireLog includes a pre-built NFPA 10 checklist with all items above. Tap pass/fa
   },
   {
     slug: "fire-inspection-report-template",
+    tags: ["documentation", "templates", "inspection"],
     title: "Fire Inspection Report Template (Free + Professional)",
     description: "What every fire inspection report needs to include — NFPA requirements, formatting, and how to generate professional reports.",
     date: "2026-03-03",
@@ -264,6 +278,7 @@ FireLog generates professional branded inspection reports automatically. Complet
   },
   {
     slug: "fire-protection-company-marketing",
+    tags: ["business", "marketing", "growth"],
     title: "How to Get More Fire Inspection Customers (Without Cold Calling)",
     description: "Marketing strategies for fire protection companies — Google Business, referrals, building manager relationships, and digital presence.",
     date: "2026-03-03",
@@ -383,6 +398,7 @@ At an average of $500-2,000 per annual inspection contract, this pipeline is wor
   },
   {
     slug: "nfpa-25-sprinkler-inspection-guide",
+    tags: ["nfpa", "sprinkler", "inspection"],
     title: "NFPA 25 Sprinkler Inspection Guide: What to Check & How Often",
     description: "Complete guide to NFPA 25 sprinkler system inspections — frequency, checklist, common deficiencies, and documentation requirements.",
     date: "2026-03-03",
@@ -501,6 +517,7 @@ FireLog includes a complete NFPA 25 checklist. Step through each section on your
   },
   {
     slug: "nfpa-25-2026-edition-changes",
+    tags: ["nfpa", "sprinkler", "compliance"],
     title: "NFPA 25 2026 Edition: Key Changes Fire Protection Contractors Need to Know",
     description: "Breaking down the most important updates in the NFPA 25 2026 edition — new inspection frequencies, documentation requirements, and what changes for your business.",
     date: "2026-03-04",
@@ -594,6 +611,7 @@ The good news: if you're already using digital inspection software, most of thes
   },
   {
     slug: "nfpa-72-fire-alarm-inspection-checklist",
+    tags: ["nfpa", "alarm", "checklist"],
     title: "NFPA 72 Fire Alarm Inspection Checklist: Complete 2026 Guide",
     description: "The complete NFPA 72 fire alarm system inspection checklist — initiating devices, notification appliances, control panels, and documentation requirements.",
     date: "2026-03-08",
@@ -727,6 +745,7 @@ FireLog's NFPA 72 templates let your techs work through every device on their ph
   },
   {
     slug: "fire-inspection-pricing-guide",
+    tags: ["business", "pricing", "growth"],
     title: "Fire Inspection Pricing Guide: What to Charge in 2026",
     description: "How to price fire extinguisher, sprinkler, alarm, and fire door inspections — per-device vs flat rate, competitive positioning, and profit margins.",
     date: "2026-03-08",
@@ -863,6 +882,7 @@ FireLog customers report finishing inspections 2-3× faster than paper. At the s
   },
   {
     slug: "fire-door-inspection-requirements-nfpa-80",
+    tags: ["nfpa", "inspection", "compliance"],
     title: "NFPA 80 Fire Door Inspection Requirements: What Changed in 2026",
     description: "Complete guide to NFPA 80 fire door inspection requirements — annual inspection checklist, common deficiencies, and documentation that satisfies AHJs.",
     date: "2026-03-08",
@@ -980,6 +1000,7 @@ FireLog's NFPA 80 checklist covers every required inspection item. Work through 
   },
   {
     slug: "fire-inspection-business-startup-guide",
+    tags: ["business", "startup", "growth"],
     title: "How to Start a Fire Inspection Business in 2026",
     description: "Step-by-step guide to starting a fire protection inspection company — licensing, certifications, equipment, pricing, and getting your first customers.",
     date: "2026-03-08",
@@ -1150,6 +1171,7 @@ Start right. Start digital. Start now.
   },
   {
     slug: "fire-inspection-software-roi-calculator",
+    tags: ["software", "roi", "business"],
     title: "Fire Inspection Software ROI: How Much Time and Money You Actually Save",
     description: "Real-world ROI analysis of switching from paper to digital fire inspection software — time savings, error reduction, and revenue impact per tech per year.",
     date: "2026-03-08",
@@ -1286,6 +1308,7 @@ At $79/month, FireLog pays for itself with one additional job per month. Everyth
   },
   {
     slug: "fire-sprinkler-inspection-frequency-requirements",
+    tags: ["sprinkler", "compliance", "nfpa"],
     title: "Fire Sprinkler Inspection Frequency: Complete NFPA 25 Schedule Guide",
     description: "How often must fire sprinklers be inspected? Complete NFPA 25 frequency table for visual, functional, and full-flow tests — weekly through 20-year intervals.",
     date: "2026-03-09",
@@ -1370,6 +1393,7 @@ NFPA 25 compliance isn't one inspection — it's a matrix of dozens of component
   },
   {
     slug: "fire-protection-contractor-insurance-requirements",
+    tags: ["business", "insurance", "compliance"],
     title: "Insurance Requirements for Fire Protection Contractors (2026 Guide)",
     description: "What insurance do fire protection contractors need? GL, E&O, workers' comp, commercial auto — coverage requirements, typical costs, and how documentation helps.",
     date: "2026-03-09",
@@ -1450,6 +1474,7 @@ Your insurance is only as good as your documentation. Build the paper trail befo
   },
   {
     slug: "how-to-win-fire-inspection-contracts",
+    tags: ["business", "growth", "contracts"],
     title: "How to Win More Fire Inspection Contracts (7 Proven Strategies)",
     description: "Practical strategies fire protection contractors use to win more inspection contracts — from professional reports to recurring revenue models.",
     date: "2026-03-09",
@@ -1534,6 +1559,7 @@ The contractors who invest in their documentation infrastructure win more contra
   },
   {
     slug: "nfpa-inspection-deficiency-codes-guide",
+    tags: ["nfpa", "documentation", "compliance"],
     title: "NFPA Inspection Deficiency Codes: What They Mean and How to Prioritize",
     description: "Understanding fire inspection deficiency classifications — critical, non-critical, and advisory — and how to prioritize corrections for NFPA compliance.",
     date: "2026-03-09",
@@ -1649,6 +1675,7 @@ Invest in getting this right — it pays back in every direction.
   },
   {
     slug: "fire-inspection-compliance-audit-preparation",
+    tags: ["compliance", "audit", "documentation"],
     title: "How to Prepare for a Fire Inspection Compliance Audit (AHJ & Insurance)",
     description: "Step-by-step guide to preparing for fire inspection audits from AHJs and insurance carriers — documentation, common findings, and how to pass every time.",
     date: "2026-03-09",
