@@ -4,6 +4,7 @@ import "./globals.css";
 import { ExitIntentPopup } from "@/components/exit-intent-popup";
 import { CookieConsent } from "@/components/cookie-consent";
 import { PromoBar } from "@/components/promo-bar";
+import { MobileCtaBar } from "@/components/mobile-cta-bar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -166,6 +167,7 @@ export default function RootLayout({
         ))}
         {children}
         <ExitIntentPopup />
+        <MobileCtaBar />
         <CookieConsent />
       </body>
     </html>
