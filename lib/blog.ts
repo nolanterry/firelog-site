@@ -8,6 +8,42 @@ export interface BlogPost {
   content: string;
 }
 
+export function getAllTags(): { tag: string; count: number }[] {
+  const tagMap = new Map<string, number>();
+  BLOG_POSTS.forEach((p) => p.tags.forEach((t) => tagMap.set(t, (tagMap.get(t) || 0) + 1)));
+  return Array.from(tagMap.entries())
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getPostsByTag(tag: string): BlogPost[] {
+  return BLOG_POSTS.filter((p) => p.tags.includes(tag));
+}
+
+export const TAG_LABELS: Record<string, string> = {
+  "nfpa": "NFPA",
+  "compliance": "Compliance",
+  "inspection": "Inspection",
+  "sprinkler": "Sprinkler",
+  "checklist": "Checklist",
+  "extinguisher": "Extinguisher",
+  "alarm": "Alarm",
+  "documentation": "Documentation",
+  "templates": "Templates",
+  "business": "Business",
+  "growth": "Growth",
+  "marketing": "Marketing",
+  "pricing": "Pricing",
+  "software": "Software",
+  "roi": "ROI",
+  "insurance": "Insurance",
+  "startup": "Startup",
+  "audit": "Audit",
+  "comparison": "Comparison",
+  "industry-trends": "Industry Trends",
+  "contracts": "Contracts",
+};
+
 export function getRelatedPosts(currentSlug: string, count = 3): BlogPost[] {
   const current = BLOG_POSTS.find((p) => p.slug === currentSlug);
   if (!current) return BLOG_POSTS.filter((p) => p.slug !== currentSlug).slice(0, count);

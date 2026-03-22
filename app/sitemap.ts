@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { BLOG_POSTS } from "@/lib/blog";
+import { BLOG_POSTS, getAllTags } from "@/lib/blog";
 import { AUTHORS } from "@/lib/authors";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -51,5 +51,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...blogPages, ...authorPages, ...changelogPages, ...comparePages, ...legalPages];
+  const tagPages: MetadataRoute.Sitemap = [
+    { url: `${base}/blog/tag`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
+    ...getAllTags().map(({ tag }) => ({
+      url: `${base}/blog/tag/${tag}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
+  ];
+
+  return [...staticPages, ...blogPages, ...authorPages, ...changelogPages, ...comparePages, ...legalPages, ...tagPages];
 }
