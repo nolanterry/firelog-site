@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { BLOG_POSTS } from "@/lib/blog";
+import { AUTHORS } from "@/lib/authors";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://firelog.pro";
@@ -40,5 +41,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/accessibility`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
   ];
 
-  return [...staticPages, ...blogPages, ...changelogPages, ...comparePages, ...legalPages];
+  const authorPages: MetadataRoute.Sitemap = [
+    { url: `${base}/blog/authors`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    ...AUTHORS.map((author) => ({
+      url: `${base}/blog/authors/${author.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [...staticPages, ...blogPages, ...authorPages, ...changelogPages, ...comparePages, ...legalPages];
 }

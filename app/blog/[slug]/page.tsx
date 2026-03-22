@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { BLOG_POSTS } from "@/lib/blog";
+import { getAuthorBySlug } from "@/lib/authors";
+import { AuthorByline } from "@/components/author-byline";
 import { Flame, ArrowLeft, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { NewsletterSignup } from "@/components/newsletter-signup";
@@ -32,11 +34,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "description": post.description,
     "datePublished": post.date,
     "dateModified": post.date,
-    "author": {
-      "@type": "Organization",
-      "name": "FireLog",
-      "url": "https://firelog.pro"
-    },
+    "author": (() => {
+      const author = getAuthorBySlug(post.author);
+      if (!author) return { "@type": "Organization", "name": "FireLog", "url": "https://firelog.pro" };
+      return author.slug === "firelog-team"
+        ? { "@type": "Organization", "name": author.name, "url": `https://firelog.pro/blog/authors/${author.slug}` }
+        : { "@type": "Person", "name": author.name, "url": `https://firelog.pro/blog/authors/${author.slug}` };
+    })(),
     "publisher": {
       "@type": "Organization",
       "name": "FireLog",
@@ -97,9 +101,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <ArrowLeft className="size-3.5" />
           Back to Blog
         </Link>
-        <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
           <Calendar className="size-3.5" />
           {post.date}
+        </div>
+        <div className="mb-4">
+          <AuthorByline authorSlug={post.author} />
         </div>
         <TableOfContents />
         <div
