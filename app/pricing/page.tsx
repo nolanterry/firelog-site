@@ -1,7 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Check, ArrowRight, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -14,6 +15,7 @@ import {
 } from "@/components/ui/accordion";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { PricingToggle } from "./pricing-toggle";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 24 },
@@ -85,6 +87,8 @@ const pricingFaqSchema = {
 };
 
 export default function PricingPage() {
+  const [isAnnual, setIsAnnual] = useState(false);
+
   return (
     <div className="min-h-screen bg-white text-foreground">
       <script
@@ -114,7 +118,7 @@ export default function PricingPage() {
             variants={fadeInUp}
             className="text-lg text-muted-foreground"
           >
-            One plan. Every feature. Unlimited inspectors. $79/mo.
+            One plan. Every feature. Unlimited inspectors. {isAnnual ? "$59/mo" : "$79/mo"}.
           </motion.p>
         </motion.div>
       </section>
@@ -122,6 +126,7 @@ export default function PricingPage() {
       {/* Pricing Card */}
       <section className="pb-16">
         <div className="max-w-md mx-auto px-6">
+          <PricingToggle isAnnual={isAnnual} onToggle={setIsAnnual} />
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -137,12 +142,33 @@ export default function PricingPage() {
               <CardContent className="p-8 text-center">
                 <h2 className="text-2xl font-bold mt-2">FireLog Pro</h2>
                 <div className="mt-4">
-                  <span className="text-5xl font-bold">$79</span>
-                  <span className="text-muted-foreground">/mo</span>
+                  <AnimatePresence mode="wait">
+                    <motion.span
+                      key={isAnnual ? "annual" : "monthly"}
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      transition={{ duration: 0.2 }}
+                      className="text-5xl font-bold inline-block"
+                    >
+                      {isAnnual ? "$59" : "$79"}
+                    </motion.span>
+                  </AnimatePresence>
+                  <span className="text-muted-foreground">{isAnnual ? "/mo, billed annually" : "/mo"}</span>
                 </div>
-                <p className="text-sm text-muted-foreground mt-2">
-                  or $59/mo billed annually (save $240/yr)
-                </p>
+                {isAnnual ? (
+                  <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="text-sm text-green-600 font-medium mt-2"
+                  >
+                    Save $240/year vs monthly
+                  </motion.p>
+                ) : (
+                  <p className="text-sm text-muted-foreground mt-2">
+                    or $59/mo billed annually (save $240/yr)
+                  </p>
+                )}
                 <ul className="text-left space-y-3 mt-8 text-sm">
                   {PRICING_FEATURES.map((f) => (
                     <li key={f} className="flex items-start gap-2.5">
@@ -188,10 +214,10 @@ export default function PricingPage() {
                 <div className="p-4 text-center text-muted-foreground">Competitors</div>
               </div>
               {[
-                { size: "1 inspector", us: "$79/mo", them: "$200+/mo", saving: "$1,452/yr" },
-                { size: "3 inspectors", us: "$79/mo", them: "$600+/mo", saving: "$6,252/yr" },
-                { size: "5 inspectors", us: "$79/mo", them: "$1,000+/mo", saving: "$11,052/yr" },
-                { size: "10 inspectors", us: "$79/mo", them: "$2,000+/mo", saving: "$23,052/yr" },
+                { size: "1 inspector", us: isAnnual ? "$59/mo" : "$79/mo", them: "$200+/mo" },
+                { size: "3 inspectors", us: isAnnual ? "$59/mo" : "$79/mo", them: "$600+/mo" },
+                { size: "5 inspectors", us: isAnnual ? "$59/mo" : "$79/mo", them: "$1,000+/mo" },
+                { size: "10 inspectors", us: isAnnual ? "$59/mo" : "$79/mo", them: "$2,000+/mo" },
               ].map((r, i) => (
                 <div
                   key={r.size}
@@ -221,17 +247,17 @@ export default function PricingPage() {
               <Calculator className="size-8 text-red-600" />
             </motion.div>
             <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-              A 5-person shop saves $11,052/year
+              A 5-person shop saves {isAnnual ? "$11,292" : "$11,052"}/year
             </motion.h2>
             <motion.p variants={fadeInUp} className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Enterprise inspection tools charge $200+ per user, per month. For a 5-inspector team, that&apos;s
-              $12,000/year — minimum. FireLog is $948/year. Same features, fraction of the cost.
+              $12,000/year — minimum. FireLog is {isAnnual ? "$708/year" : "$948/year"}. Same features, fraction of the cost.
             </motion.p>
             <motion.div variants={fadeInUp} className="grid sm:grid-cols-3 gap-6 mt-12">
               {[
                 { label: "Enterprise tools", value: "$12,000+/yr", sublabel: "5 users × $200/mo" },
-                { label: "FireLog", value: "$948/yr", sublabel: "$79/mo × 12 months" },
-                { label: "You save", value: "$11,052/yr", sublabel: "Reinvest in your business" },
+                { label: "FireLog", value: isAnnual ? "$708/yr" : "$948/yr", sublabel: isAnnual ? "$59/mo × 12 months" : "$79/mo × 12 months" },
+                { label: "You save", value: isAnnual ? "$11,292/yr" : "$11,052/yr", sublabel: "Reinvest in your business" },
               ].map((item) => (
                 <Card key={item.label} className="rounded-2xl border-border/50">
                   <CardContent className="p-6 text-center">
