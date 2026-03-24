@@ -18,6 +18,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/demo`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/help`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/roi-calculator`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/use-cases`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/use-cases/fire-sprinkler-companies`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/use-cases/fire-alarm-contractors`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/use-cases/fire-extinguisher-services`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
