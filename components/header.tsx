@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { href: "/use-cases", label: "Use Cases" },
   { href: "/customers", label: "Customers" },
   { href: "/demo", label: "Demo" },
+  { href: "/resources", label: "Resources" },
   { href: "/help", label: "Help" },
   { href: "/roi-calculator", label: "ROI Calculator" },
   { href: "/changelog", label: "Changelog" },
