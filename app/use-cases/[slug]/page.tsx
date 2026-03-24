@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { CheckCircle2, ArrowRight, Quote } from "lucide-react";
+import { CheckCircle2, ArrowRight } from "lucide-react";
 
 interface UseCase {
   slug: string;
@@ -15,7 +15,6 @@ interface UseCase {
   painPoints: { title: string; desc: string }[];
   solutions: { title: string; desc: string; feature: string }[];
   metrics: { stat: string; label: string }[];
-  testimonial: { quote: string; name: string; role: string; company: string };
 }
 
 const USE_CASES: UseCase[] = [
@@ -74,13 +73,6 @@ const USE_CASES: UseCase[] = [
       { stat: "85%", label: "reduction in report generation time" },
       { stat: "45%", label: "faster deficiency resolution cycle" },
     ],
-    testimonial: {
-      quote:
-        "We inspect 1,200 sprinkler systems annually across three counties. Before FireLog, we had two full-time admin staff just processing inspection paperwork. Now our technicians complete everything on their tablets, reports generate automatically, and we reassigned one admin to sales. Our throughput is up 30% with the same field crew.",
-      name: "Jason Piccirillo",
-      role: "Operations Manager",
-      company: "Guardian Fire Protection Services",
-    },
   },
   {
     slug: "fire-alarm-contractors",
@@ -137,13 +129,6 @@ const USE_CASES: UseCase[] = [
       { stat: "Zero", label: "missed sensitivity testing schedules" },
       { stat: "72%", label: "reduction in report preparation time" },
     ],
-    testimonial: {
-      quote:
-        "We service fire alarm systems in 40+ commercial buildings — some with 300+ devices each. Before FireLog, our annual inspections generated stacks of paper forms that took days to turn into reports. Now our technicians work through the device list on their tablet, results sync in real time, and the report is ready before they leave the building. Our AHJ loves the detail level.",
-      name: "Carla Vasquez",
-      role: "Service Manager",
-      company: "Sentinel Alarm & Signal",
-    },
   },
   {
     slug: "fire-extinguisher-services",
@@ -200,13 +185,6 @@ const USE_CASES: UseCase[] = [
       { stat: "Same-day", label: "invoicing with real-time field sync" },
       { stat: "99.8%", label: "extinguisher tracking accuracy with barcode scanning" },
     ],
-    testimonial: {
-      quote:
-        "We service 18,000 extinguishers across 400+ customer sites. Tracking 6-year and hydro dates on spreadsheets was a full-time job — and we still missed some. FireLog's automated scheduling eliminated that problem entirely. Our technicians scan, inspect, and move on. The office gets real-time data and invoices go out the same day. We're billing 15% more just from capturing services we used to miss.",
-      name: "Derek Stanton",
-      role: "Owner",
-      company: "FireShield Extinguisher Services",
-    },
   },
 ];
 
@@ -319,22 +297,6 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
                   <p className="text-sm text-red-200 mt-1">{m.label}</p>
                 </div>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonial */}
-        <section className="py-20">
-          <div className="max-w-3xl mx-auto px-4 text-center">
-            <Quote className="w-10 h-10 text-red-400 mx-auto mb-6" />
-            <blockquote className="text-xl text-gray-800 leading-relaxed italic mb-6">
-              &ldquo;{uc.testimonial.quote}&rdquo;
-            </blockquote>
-            <div>
-              <p className="font-semibold text-gray-900">{uc.testimonial.name}</p>
-              <p className="text-sm text-gray-500">
-                {uc.testimonial.role}, {uc.testimonial.company}
-              </p>
             </div>
           </div>
         </section>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Check, Shield, AlertTriangle, Clock, FileText, Star, Smartphone, WifiOff, Camera } from "lucide-react";
+import { ArrowRight, Check, Shield, AlertTriangle, Clock, FileText, Smartphone, WifiOff, Camera } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Digital Fire Inspection Software | FireLog",
@@ -24,12 +24,6 @@ const FEATURES = [
   "Branded PDF reports in one tap",
   "Equipment registry with service history",
   "Multi-inspector team management",
-];
-
-const TESTIMONIALS = [
-  { name: "Brian K.", role: "Owner, Fire Protection Services Co.", text: "We went from handwriting reports in the truck to tapping through checklists on a phone. Reports generate themselves now." },
-  { name: "Amanda S.", role: "Service Manager, Sprinkler Contractor", text: "The offline mode actually works. Half our inspections are in basements with no signal. We sync when we get back to the truck." },
-  { name: "Dave M.", role: "Fire Inspector, Municipal FD", text: "Deficiency tracking across 200+ buildings was impossible on paper. Now I can see every open item and when it's due." },
 ];
 
 const SIGNUP_URL = "https://app.firelog.pro";
@@ -118,24 +112,22 @@ export default function LPFireInspectionSoftware() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* CTA Banner */}
       <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">
-            Trusted by Fire Protection Pros
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Ready to Go Digital?
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {TESTIMONIALS.map((t) => (
-              <div key={t.name} className="bg-gray-50 border border-gray-100 rounded-xl p-6">
-                <div className="flex gap-0.5 mb-3">
-                  {[...Array(5)].map((_, i) => <Star key={i} size={14} className="text-amber-400 fill-amber-400" />)}
-                </div>
-                <p className="text-sm text-gray-600 mb-4 italic">&ldquo;{t.text}&rdquo;</p>
-                <p className="text-sm font-semibold text-gray-900">{t.name}</p>
-                <p className="text-xs text-gray-400">{t.role}</p>
-              </div>
-            ))}
-          </div>
+          <p className="text-gray-500 mb-8 max-w-xl mx-auto">
+            Fire protection contractors across the country are replacing paper forms
+            with mobile inspections. Start your free trial and see the difference.
+          </p>
+          <Link
+            href={SIGNUP_URL}
+            className="inline-flex items-center justify-center gap-2 bg-red-500 text-white font-bold px-8 py-4 rounded-xl hover:bg-red-600 transition-colors text-base shadow-lg shadow-red-500/25"
+          >
+            Start Your Free 14-Day Trial <ArrowRight size={18} />
+          </Link>
         </div>
       </section>
 

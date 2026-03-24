@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Check, Shield, AlertTriangle, Star, Droplets, DoorOpen, Bell, FileCheck, BookOpen } from "lucide-react";
+import { ArrowRight, Check, Shield, AlertTriangle, Droplets, DoorOpen, Bell, FileCheck } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "NFPA Compliance Inspection Software | FireLog",
@@ -32,12 +32,6 @@ const FEATURES = [
   { title: "Offline Inspections", desc: "Full functionality without internet. Sync automatically when you reconnect — critical for basements and mechanical rooms." },
   { title: "Inspector Assignment", desc: "Assign inspectors to buildings and routes. Track who inspected what, when, with digital signatures." },
   { title: "Building Owner Portal", desc: "Give building owners read-only access to their inspection records and deficiency status. Reduces phone calls by 80%." },
-];
-
-const TESTIMONIALS = [
-  { name: "Steve R.", role: "Fire Marshal, County Fire Department", text: "I review hundreds of inspection reports. The ones from FireLog are always complete, organized, and have photo evidence. It's what every contractor should use." },
-  { name: "Karen T.", role: "Operations Director, National Fire Protection Co.", text: "We manage NFPA compliance for 400+ buildings. FireLog's scheduling and deficiency tracking eliminated our biggest compliance gaps." },
-  { name: "Paul F.", role: "Owner, Sprinkler Service Contractor", text: "NFPA 25 quarterly inspections used to take a full day of paperwork. Now my guys tap through the checklist and the report emails itself to the building owner." },
 ];
 
 const SIGNUP_URL = "https://app.firelog.pro";
@@ -138,24 +132,22 @@ export default function LPNFPAComplianceSoftware() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* CTA Banner */}
       <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">
-            Trusted by Fire Marshals & Contractors
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Stay Compliant Without the Paperwork
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {TESTIMONIALS.map((t) => (
-              <div key={t.name} className="bg-gray-50 border border-gray-100 rounded-xl p-6">
-                <div className="flex gap-0.5 mb-3">
-                  {[...Array(5)].map((_, i) => <Star key={i} size={14} className="text-amber-400 fill-amber-400" />)}
-                </div>
-                <p className="text-sm text-gray-600 mb-4 italic">&ldquo;{t.text}&rdquo;</p>
-                <p className="text-sm font-semibold text-gray-900">{t.name}</p>
-                <p className="text-xs text-gray-400">{t.role}</p>
-              </div>
-            ))}
-          </div>
+          <p className="text-gray-500 mb-8 max-w-xl mx-auto">
+            Every NFPA code. Every inspection point. Every report — generated automatically.
+            Try FireLog free for 14 days.
+          </p>
+          <Link
+            href={SIGNUP_URL}
+            className="inline-flex items-center justify-center gap-2 bg-red-500 text-white font-bold px-8 py-4 rounded-xl hover:bg-red-600 transition-colors text-base shadow-lg shadow-red-500/25"
+          >
+            Start Your Free 14-Day Trial <ArrowRight size={18} />
+          </Link>
         </div>
       </section>
 
