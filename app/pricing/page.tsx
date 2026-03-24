@@ -16,6 +16,7 @@ import {
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { PricingToggle } from "./pricing-toggle";
+import { TrustBadges } from "./trust-badges";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 24 },
@@ -305,6 +306,9 @@ export default function PricingPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Trust Badges */}
+      <TrustBadges />
 
       {/* CTA */}
       <section className="bg-gradient-to-br from-red-600 to-red-700 text-white py-24">
