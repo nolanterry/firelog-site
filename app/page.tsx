@@ -34,6 +34,7 @@ import {
 } from "@/components/ui/accordion";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { TestimonialCarousel } from "@/components/testimonial-carousel";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 24 },
@@ -669,6 +670,9 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <TestimonialCarousel />
 
       {/* FAQ */}
       <section className="py-24">
