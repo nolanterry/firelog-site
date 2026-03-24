@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { href: "/customers", label: "Customers" },
   { href: "/demo", label: "Demo" },
   { href: "/help", label: "Help" },
+  { href: "/roi-calculator", label: "ROI Calculator" },
   { href: "/changelog", label: "Changelog" },
   { href: "/contact", label: "Contact" },
 ];
