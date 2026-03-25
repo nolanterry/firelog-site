@@ -8,18 +8,9 @@ import { useState } from "react";
 
 const NAV_LINKS = [
   { href: "/features", label: "Features" },
-  { href: "/integrations", label: "Integrations" },
   { href: "/pricing", label: "Pricing" },
   { href: "/blog", label: "Blog" },
-  { href: "/about", label: "About" },
-  { href: "/use-cases", label: "Use Cases" },
-  { href: "/customers", label: "Customers" },
   { href: "/demo", label: "Demo" },
-  { href: "/resources", label: "Resources" },
-  { href: "/help", label: "Help" },
-  { href: "/roi-calculator", label: "ROI Calculator" },
-  { href: "/changelog", label: "Changelog" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
