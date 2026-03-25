@@ -220,7 +220,7 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">{uc.heroSub}</p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://app.firelog.pro"
+                href="https://app.firelogai.com"
                 className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
               >
                 Start Free Trial
@@ -310,7 +310,7 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://app.firelog.pro"
+                href="https://app.firelogai.com"
                 className="bg-white text-red-600 font-semibold px-8 py-3 rounded-lg hover:bg-red-50 transition-colors"
               >
                 Start Free Trial
@@ -356,9 +356,9 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://firelog.pro" },
-              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://firelog.pro/use-cases" },
-              { "@type": "ListItem", position: 3, name: uc.title, item: `https://firelog.pro/use-cases/${uc.slug}` },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://firelogai.com" },
+              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://firelogai.com/use-cases" },
+              { "@type": "ListItem", position: 3, name: uc.title, item: `https://firelogai.com/use-cases/${uc.slug}` },
             ],
           }),
         }}

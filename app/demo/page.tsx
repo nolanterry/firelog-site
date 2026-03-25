@@ -62,7 +62,7 @@ export default function DemoPage() {
                     Book Your Demo <ArrowRight size={20} />
                   </a>
                   <Link
-                    href="https://app.firelog.pro"
+                    href="https://app.firelogai.com"
                     className="inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 font-semibold px-8 py-4 rounded-xl hover:bg-gray-50 transition-colors"
                   >
                     Or Start Free Trial
@@ -194,7 +194,7 @@ export default function DemoPage() {
               <a href="#book" className="inline-flex items-center justify-center gap-2 bg-red-500 text-white font-bold px-8 py-4 rounded-xl hover:bg-red-600 transition-colors">
                 Book Your Demo <Calendar size={20} />
               </a>
-              <Link href="https://app.firelog.pro" className="inline-flex items-center justify-center gap-2 border-2 border-white/20 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors">
+              <Link href="https://app.firelogai.com" className="inline-flex items-center justify-center gap-2 border-2 border-white/20 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors">
                 Start Free Trial Instead
               </Link>
             </div>

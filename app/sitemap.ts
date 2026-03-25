@@ -3,7 +3,7 @@ import { BLOG_POSTS, getAllTags } from "@/lib/blog";
 import { AUTHORS } from "@/lib/authors";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://firelog.pro";
+  const base = "https://firelogai.com";
   const now = new Date();
 
   const staticPages: MetadataRoute.Sitemap = [

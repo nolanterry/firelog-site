@@ -129,7 +129,7 @@ export default function CustomersPage() {
               className="bg-red-500 hover:bg-red-600 text-white"
               asChild
             >
-              <Link href="https://app.firelog.pro">
+              <Link href="https://app.firelogai.com">
                 Start Your Free Trial <ArrowRight size={18} className="ml-2" />
               </Link>
             </Button>

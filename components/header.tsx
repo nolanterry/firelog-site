@@ -36,7 +36,7 @@ export function Header() {
         </div>
         <div className="flex items-center gap-3">
           <Button asChild size="sm" className="hidden sm:inline-flex">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
           <button
             className="md:hidden p-2"
@@ -62,7 +62,7 @@ export function Header() {
             </Link>
           ))}
           <Button asChild size="sm" className="w-full">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </div>
       )}

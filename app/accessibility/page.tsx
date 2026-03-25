@@ -52,8 +52,8 @@ export default function AccessibilityPage() {
               accessibility barriers, please let us know:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li>Email: <a href="mailto:support@firelog.pro" className="text-primary hover:underline">support@firelog.pro</a></li>
-              <li>Contact form: <a href="/contact" className="text-primary hover:underline">firelog.pro/contact</a></li>
+              <li>Email: <a href="mailto:support@firelogai.com" className="text-primary hover:underline">support@firelogai.com</a></li>
+              <li>Contact form: <a href="/contact" className="text-primary hover:underline">firelogai.com/contact</a></li>
             </ul>
             <p className="text-muted-foreground leading-relaxed">
               We try to respond to accessibility feedback within 2 business days.

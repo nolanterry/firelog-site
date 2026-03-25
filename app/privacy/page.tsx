@@ -101,7 +101,7 @@ export default function PrivacyPage() {
           <h2>9. Contact Us</h2>
           <p>
             If you have questions about this Privacy Policy or your data, contact us at:{" "}
-            <a href="mailto:support@firelog.pro">support@firelog.pro</a>
+            <a href="mailto:support@firelogai.com">support@firelogai.com</a>
           </p>
         </article>
       </main>

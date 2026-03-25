@@ -34,12 +34,12 @@ export default async function AuthorDetailPage({ params }: { params: Promise<{ s
     "@type": author.slug === "firelog-team" ? "Organization" : "Person",
     "name": author.name,
     "description": author.bio,
-    "url": `https://firelog.pro/blog/authors/${slug}`,
+    "url": `https://firelogai.com/blog/authors/${slug}`,
     "jobTitle": author.role,
     "worksFor": {
       "@type": "Organization",
       "name": "FireLog",
-      "url": "https://firelog.pro",
+      "url": "https://firelogai.com",
     },
   };
 

@@ -36,19 +36,19 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "dateModified": post.date,
     "author": (() => {
       const author = getAuthorBySlug(post.author);
-      if (!author) return { "@type": "Organization", "name": "FireLog", "url": "https://firelog.pro" };
+      if (!author) return { "@type": "Organization", "name": "FireLog", "url": "https://firelogai.com" };
       return author.slug === "firelog-team"
-        ? { "@type": "Organization", "name": author.name, "url": `https://firelog.pro/blog/authors/${author.slug}` }
-        : { "@type": "Person", "name": author.name, "url": `https://firelog.pro/blog/authors/${author.slug}` };
+        ? { "@type": "Organization", "name": author.name, "url": `https://firelogai.com/blog/authors/${author.slug}` }
+        : { "@type": "Person", "name": author.name, "url": `https://firelogai.com/blog/authors/${author.slug}` };
     })(),
     "publisher": {
       "@type": "Organization",
       "name": "FireLog",
-      "url": "https://firelog.pro"
+      "url": "https://firelogai.com"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://firelog.pro/blog/${slug}`
+      "@id": `https://firelogai.com/blog/${slug}`
     }
   };
 
@@ -60,19 +60,19 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://firelog.pro"
+        "item": "https://firelogai.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://firelog.pro/blog"
+        "item": "https://firelogai.com/blog"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://firelog.pro/blog/${slug}`
+        "item": `https://firelogai.com/blog/${slug}`
       }
     ]
   };
@@ -89,7 +89,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span className="text-xl font-bold tracking-tight">FireLog</span>
           </Link>
           <Button asChild size="sm">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </div>
       </nav>

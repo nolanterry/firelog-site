@@ -26,7 +26,7 @@ const FEATURES = [
   "Multi-inspector team management",
 ];
 
-const SIGNUP_URL = "https://app.firelog.pro";
+const SIGNUP_URL = "https://app.firelogai.com";
 
 export default function LPFireInspectionSoftware() {
   return (

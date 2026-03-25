@@ -131,7 +131,7 @@ If you're a small fire protection company (1-15 techs), FireLog offers the best 
 
 The days of paying $200/user/month for what is essentially a digital checklist are ending.
 
-[Try FireLog free for 14 days →](https://app.firelog.pro)
+[Try FireLog free for 14 days →](https://app.firelogai.com)
 `,
   },
   {
@@ -216,7 +216,7 @@ Paper records work but are a liability. Digital inspection reports with photos a
 
 FireLog includes a pre-built NFPA 10 checklist with all items above. Tap pass/fail per item, add notes on deficiencies, snap a photo, and generate a branded PDF report. Takes about 2 minutes per extinguisher vs 5-10 minutes with paper.
 
-[Start digital fire extinguisher inspections →](https://app.firelog.pro)
+[Start digital fire extinguisher inspections →](https://app.firelogai.com)
 `,
   },
   {
@@ -313,7 +313,7 @@ Paper gets lost. Files get deleted. Digital inspection software with cloud backu
 
 FireLog generates professional branded inspection reports automatically. Complete the NFPA checklist on your phone, and FireLog creates a PDF with your company logo, all checklist results, deficiency photos, signatures, and compliance documentation. Email it to the building owner in one tap.
 
-[Generate professional fire inspection reports →](https://app.firelog.pro)
+[Generate professional fire inspection reports →](https://app.firelogai.com)
 `,
   },
   {
@@ -434,7 +434,7 @@ Cost: $800-2,000 for a partial wrap. One new customer pays for it.
 
 At an average of $500-2,000 per annual inspection contract, this pipeline is worth $50,000-200,000 in recurring annual revenue.
 
-[Make your inspection reports sell for you →](https://app.firelog.pro)
+[Make your inspection reports sell for you →](https://app.firelogai.com)
 `,
   },
   {
@@ -554,7 +554,7 @@ Sprinkler inspections have 28+ checklist items across multiple system components
 
 FireLog includes a complete NFPA 25 checklist. Step through each section on your phone, tap pass/fail, document deficiencies with photos, and generate a branded PDF report. Done before you pack up your tools.
 
-[Start digital sprinkler inspections →](https://app.firelog.pro)
+[Start digital sprinkler inspections →](https://app.firelogai.com)
 `,
   },
   {
@@ -641,7 +641,7 @@ FireLog's NFPA 25 inspection templates are updated for the 2026 edition:
 - **Automatic PDF reports** — branded, timestamped, AHJ-ready
 - **Corrective action tracking** — set due dates, assign responsibility, track completion
 
-Stop worrying about whether your paperwork meets the new standard. [Start your free trial →](https://app.firelog.pro)
+Stop worrying about whether your paperwork meets the new standard. [Start your free trial →](https://app.firelogai.com)
 
 ## Bottom Line
 
@@ -649,7 +649,7 @@ The 2026 edition of NFPA 25 continues the trend toward more detailed, more accou
 
 The good news: if you're already using digital inspection software, most of these changes are handled automatically. If you're not, now is the time to switch.
 
-[Try FireLog free for 14 days →](https://app.firelog.pro)
+[Try FireLog free for 14 days →](https://app.firelogai.com)
 `,
   },
   {
@@ -784,7 +784,7 @@ NFPA 72 alarm systems can have hundreds of devices. A 200-unit apartment buildin
 
 FireLog's NFPA 72 templates let your techs work through every device on their phone — pass/fail, photo documentation for deficiencies, automatic device count tracking, and a branded PDF report generated when they walk out the door.
 
-[Start digital fire alarm inspections →](https://app.firelog.pro)
+[Start digital fire alarm inspections →](https://app.firelogai.com)
 `,
   },
   {
@@ -922,7 +922,7 @@ Digital inspection software cuts inspection time 40-60% vs paper:
 
 FireLog customers report finishing inspections 2-3× faster than paper. At the same price per device, that's 2-3× the effective hourly rate.
 
-[Speed up your inspections →](https://app.firelog.pro)
+[Speed up your inspections →](https://app.firelogai.com)
 `,
   },
   {
@@ -1041,7 +1041,7 @@ A single hospital contract can be worth $5,000-30,000 annually for fire door ins
 
 FireLog's NFPA 80 checklist covers every required inspection item. Work through each door on your phone, snap photos of deficiencies, and generate a branded PDF report with door-by-door results. The report becomes your correction proposal — every failed item is a revenue opportunity.
 
-[Add fire door inspections to your services →](https://app.firelog.pro)
+[Add fire door inspections to your services →](https://app.firelogai.com)
 `,
   },
   {
@@ -1213,7 +1213,7 @@ Fire inspection businesses build an incredible moat over time:
 
 Start right. Start digital. Start now.
 
-[Get FireLog for your new fire inspection business →](https://app.firelog.pro)
+[Get FireLog for your new fire inspection business →](https://app.firelogai.com)
 `,
   },
   {
@@ -1351,7 +1351,7 @@ The question isn't "can I afford fire inspection software?" It's "can I afford n
 
 At $79/month, FireLog pays for itself with one additional job per month. Everything after that is pure upside.
 
-[Calculate your ROI — start free →](https://app.firelog.pro)
+[Calculate your ROI — start free →](https://app.firelogai.com)
 `,
   },
   {
@@ -1423,7 +1423,7 @@ If you're running inspections across 50+ buildings with different system types a
 2. **Mobile access** so techs see what's due on-site
 3. **Compliance alerts** before deadlines, not after
 
-[FireLog tracks all NFPA 25 frequencies automatically — start free →](https://app.firelog.pro)
+[FireLog tracks all NFPA 25 frequencies automatically — start free →](https://app.firelogai.com)
 
 ## Common Mistakes
 
@@ -1437,7 +1437,7 @@ If you're running inspections across 50+ buildings with different system types a
 
 NFPA 25 compliance isn't one inspection — it's a matrix of dozens of components on different schedules. The fire protection contractors who win are the ones who never miss a deadline and can prove it.
 
-[Track every frequency automatically with FireLog →](https://app.firelog.pro)
+[Track every frequency automatically with FireLog →](https://app.firelogai.com)
 `,
   },
   {
@@ -1508,7 +1508,7 @@ When an insurance claim happens — yours or your client's — the first questio
 
 If your reports are on paper in a filing cabinet, good luck finding the right one fast. If they're in a digital system with timestamps, signatures, and photos — you're covered.
 
-[FireLog keeps your inspection records audit-ready — start free →](https://app.firelog.pro)
+[FireLog keeps your inspection records audit-ready — start free →](https://app.firelogai.com)
 
 ## Action Items
 
@@ -1519,7 +1519,7 @@ If your reports are on paper in a filing cabinet, good luck finding the right on
 
 Your insurance is only as good as your documentation. Build the paper trail before you need it.
 
-[Get audit-ready documentation with FireLog →](https://app.firelog.pro)
+[Get audit-ready documentation with FireLog →](https://app.firelogai.com)
 `,
   },
   {
@@ -1597,7 +1597,7 @@ Compare that to the guy with a clipboard and a promise to "mail the report next 
 
 Building managers are making a risk decision when they hire you. Everything about your operation should say "we take this seriously."
 
-[FireLog makes you look like the most professional inspector in the room — start free →](https://app.firelog.pro)
+[FireLog makes you look like the most professional inspector in the room — start free →](https://app.firelogai.com)
 
 ## The Common Thread
 
@@ -1605,7 +1605,7 @@ Notice what all 7 strategies have in common: **documentation quality.** Your rep
 
 The contractors who invest in their documentation infrastructure win more contracts, retain more clients, and generate more correction revenue. Period.
 
-[Build your documentation advantage with FireLog →](https://app.firelog.pro)
+[Build your documentation advantage with FireLog →](https://app.firelogai.com)
 `,
   },
   {
@@ -1706,7 +1706,7 @@ Digital deficiency tracking with a tool like FireLog gives you:
 - Correction tracking with status and dates
 - Report generation that includes historical trends
 
-[Track deficiencies professionally with FireLog →](https://app.firelog.pro)
+[Track deficiencies professionally with FireLog →](https://app.firelogai.com)
 
 ## Common Deficiency Mistakes
 
@@ -1722,7 +1722,7 @@ A strong deficiency management process is a competitive advantage. It generates 
 
 Invest in getting this right — it pays back in every direction.
 
-[Start tracking deficiencies with FireLog →](https://app.firelog.pro)
+[Start tracking deficiencies with FireLog →](https://app.firelogai.com)
 `,
   },
   {
@@ -1842,7 +1842,7 @@ Fire inspection companies using digital documentation tools pass audits at signi
 - **Deficiency tracking is built in** — corrections are linked to findings
 - **Credentials stay current** — expiration alerts prevent lapses
 
-[Get audit-ready with FireLog — start free →](https://app.firelog.pro)
+[Get audit-ready with FireLog — start free →](https://app.firelogai.com)
 
 ## Your Audit Insurance Policy
 
@@ -1850,7 +1850,7 @@ The best time to prepare for an audit is **every day.** If every inspection is d
 
 Build the process now. Your future self (and your clients) will thank you.
 
-[Start building your audit-ready process with FireLog →](https://app.firelog.pro)
+[Start building your audit-ready process with FireLog →](https://app.firelogai.com)
 `,
   },
 ];

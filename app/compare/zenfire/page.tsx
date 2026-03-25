@@ -19,7 +19,7 @@ export default function CompareZenFire() {
             <span className="text-xl font-bold tracking-tight">FireLog</span>
           </Link>
           <Button asChild size="sm">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </div>
       </nav>
@@ -130,7 +130,7 @@ export default function CompareZenFire() {
             ZenFire is a full field service platform that happens to do fire inspections. FireLog is purpose-built for fire inspection compliance — and nothing else. If fire inspections are your core business and you want something simple, affordable, and NFPA-compliant, FireLog is the better fit. If you need dispatching, inventory, and multi-trade support, ZenFire offers more breadth.
           </p>
           <Button asChild>
-            <Link href="https://app.firelog.pro" className="inline-flex items-center gap-2">
+            <Link href="https://app.firelogai.com" className="inline-flex items-center gap-2">
               Try FireLog Free for 14 Days <ArrowRight className="size-4" />
             </Link>
           </Button>

@@ -31,10 +31,10 @@ export default async function TagArchivePage({ params }: { params: Promise<{ tag
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://firelog.pro" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://firelog.pro/blog" },
-      { "@type": "ListItem", position: 3, name: "Topics", item: "https://firelog.pro/blog/tag" },
-      { "@type": "ListItem", position: 4, name: label, item: `https://firelog.pro/blog/tag/${tagParam}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://firelogai.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://firelogai.com/blog" },
+      { "@type": "ListItem", position: 3, name: "Topics", item: "https://firelogai.com/blog/tag" },
+      { "@type": "ListItem", position: 4, name: label, item: `https://firelogai.com/blog/tag/${tagParam}` },
     ],
   };
 

@@ -92,7 +92,7 @@ export default function UseCasesPage() {
               Book a 15-minute walkthrough tailored to your fire protection specialty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://app.firelog.pro" className="bg-white text-red-600 font-semibold px-8 py-3 rounded-lg hover:bg-red-50 transition-colors">
+              <a href="https://app.firelogai.com" className="bg-white text-red-600 font-semibold px-8 py-3 rounded-lg hover:bg-red-50 transition-colors">
                 Start Free Trial
               </a>
               <Link href="/demo" className="border border-white/30 hover:bg-white/10 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
@@ -111,8 +111,8 @@ export default function UseCasesPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://firelog.pro" },
-              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://firelog.pro/use-cases" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://firelogai.com" },
+              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://firelogai.com/use-cases" },
             ],
           }),
         }}

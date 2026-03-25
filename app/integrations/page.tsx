@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Integrations — Connect FireLog with Your Business Tools",
     description:
       "FireLog integrates with QuickBooks, ServiceTitan, BuildOps, Google Workspace, and more.",
-    url: "https://firelog.pro/integrations",
+    url: "https://firelogai.com/integrations",
   },
 };
 
@@ -85,7 +85,7 @@ export default function IntegrationsPage() {
             We&apos;re building new integrations all the time. Let us know what your business needs and we&apos;ll prioritize it.
           </p>
           <a
-            href="mailto:support@firelog.pro?subject=Integration%20Request"
+            href="mailto:support@firelogai.com?subject=Integration%20Request"
             className="inline-block bg-white text-red-600 font-semibold px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors text-lg"
           >
             Request an Integration
@@ -100,8 +100,8 @@ export default function IntegrationsPage() {
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Home", item: "https://firelog.pro" },
-                { "@type": "ListItem", position: 2, name: "Integrations", item: "https://firelog.pro/integrations" },
+                { "@type": "ListItem", position: 1, name: "Home", item: "https://firelogai.com" },
+                { "@type": "ListItem", position: 2, name: "Integrations", item: "https://firelogai.com/integrations" },
               ],
             }),
           }}

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Changelog | FireLog",
     description:
       "See what's new in FireLog. Product updates, new features, and improvements to fire inspection and NFPA compliance software.",
-    url: "https://firelog.pro/changelog",
+    url: "https://firelogai.com/changelog",
   },
 };
 
@@ -133,7 +133,7 @@ export default function ChangelogPage() {
             Start your free trial today — no credit card required.
           </p>
           <Button asChild size="lg">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </section>
       </main>

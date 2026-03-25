@@ -43,7 +43,7 @@ export function PromoBar() {
       <p className="font-medium">
         🔥 NFPA-compliant inspections in under 5 minutes — $79/mo, unlimited users.{" "}
         <a
-          href="https://app.firelog.pro/sign-up"
+          href="https://app.firelogai.com/sign-up"
           className="underline underline-offset-2 font-semibold hover:opacity-90 transition-opacity"
         >
           Try FireLog free →

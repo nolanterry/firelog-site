@@ -21,13 +21,13 @@ export default function BlogPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://firelog.pro"
+        "item": "https://firelogai.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://firelog.pro/blog"
+        "item": "https://firelogai.com/blog"
       }
     ]
   };
@@ -42,7 +42,7 @@ export default function BlogPage() {
             <span className="text-xl font-bold tracking-tight">FireLog</span>
           </Link>
           <Button asChild size="sm">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </div>
       </nav>

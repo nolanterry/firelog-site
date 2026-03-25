@@ -17,11 +17,11 @@ export default function AuthorsPage() {
     "@type": "CollectionPage",
     "name": "Blog Authors",
     "description": metadata.description,
-    "url": "https://firelog.pro/blog/authors",
+    "url": "https://firelogai.com/blog/authors",
     "isPartOf": {
       "@type": "WebSite",
       "name": "FireLog",
-      "url": "https://firelog.pro",
+      "url": "https://firelogai.com",
     },
   };
 

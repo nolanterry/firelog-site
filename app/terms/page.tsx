@@ -119,7 +119,7 @@ export default function TermsPage() {
           <h2>13. Contact</h2>
           <p>
             Questions about these Terms? Contact us at{" "}
-            <a href="mailto:support@firelog.pro">support@firelog.pro</a>
+            <a href="mailto:support@firelogai.com">support@firelogai.com</a>
           </p>
         </article>
       </main>

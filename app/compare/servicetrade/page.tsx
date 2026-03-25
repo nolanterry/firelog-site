@@ -19,7 +19,7 @@ export default function CompareServiceTrade() {
             <span className="text-xl font-bold tracking-tight">FireLog</span>
           </Link>
           <Button asChild size="sm">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </div>
       </nav>
@@ -131,7 +131,7 @@ export default function CompareServiceTrade() {
             ServiceTrade is the gold standard for large commercial fire protection companies. But most of its features — dispatching, customer portals, complex routing — are overkill for shops under 15 techs. If your core need is NFPA-compliant inspection documentation at a price that doesn't eat your margins, FireLog delivers that for a fraction of the cost.
           </p>
           <Button asChild>
-            <Link href="https://app.firelog.pro" className="inline-flex items-center gap-2">
+            <Link href="https://app.firelogai.com" className="inline-flex items-center gap-2">
               Try FireLog Free for 14 Days <ArrowRight className="size-4" />
             </Link>
           </Button>

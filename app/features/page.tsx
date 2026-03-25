@@ -241,7 +241,7 @@ export default function FeaturesPage() {
                 variant="secondary"
                 className="h-12 px-10 text-base font-bold text-red-600 bg-white hover:bg-red-50"
               >
-                <Link href="https://app.firelog.pro">
+                <Link href="https://app.firelogai.com">
                   Start Free Trial
                   <ArrowRight className="size-4 ml-1" />
                 </Link>

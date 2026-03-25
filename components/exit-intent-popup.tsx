@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { X, ArrowRight, Flame } from "lucide-react";
 
-const SIGNUP_URL = "https://app.firelog.pro";
+const SIGNUP_URL = "https://app.firelogai.com";
 const STORAGE_KEY = "firelog_exit_popup_dismissed";
 const DISMISS_DAYS = 7;
 

@@ -81,7 +81,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           }}
         >
           <span style={{ color: "#64748b", fontSize: "20px" }}>
-            firelog.pro
+            firelogai.com
           </span>
         </div>
       </div>

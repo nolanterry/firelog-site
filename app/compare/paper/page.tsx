@@ -19,7 +19,7 @@ export default function ComparePaper() {
             <span className="text-xl font-bold tracking-tight">FireLog</span>
           </Link>
           <Button asChild size="sm">
-            <Link href="https://app.firelog.pro">Start Free Trial</Link>
+            <Link href="https://app.firelogai.com">Start Free Trial</Link>
           </Button>
         </div>
       </nav>
@@ -147,7 +147,7 @@ export default function ComparePaper() {
             FireLog is built for fire protection companies making the switch from paper. Pre-built NFPA templates, offline mode (works in basements), and branded PDF reports — all for $49/mo.
           </p>
           <Button asChild>
-            <Link href="https://app.firelog.pro" className="inline-flex items-center gap-2">
+            <Link href="https://app.firelogai.com" className="inline-flex items-center gap-2">
               Start Your Free Trial <ArrowRight className="size-4" />
             </Link>
           </Button>

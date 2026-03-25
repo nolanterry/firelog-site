@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "System Status | FireLog",
     description:
       "FireLog system status — real-time operational status for all digital fire inspection reports services.",
-    url: "https://firelog.pro/status",
+    url: "https://firelogai.com/status",
   },
 };
 
@@ -190,8 +190,8 @@ export default function StatusPage() {
               FireLog is hosted on Vercel&apos;s global edge network with automatic failover.
               <br />
               For real-time alerts, email{" "}
-              <a href="mailto:support@firelog.pro" className="text-red-600 hover:underline">
-                support@firelog.pro
+              <a href="mailto:support@firelogai.com" className="text-red-600 hover:underline">
+                support@firelogai.com
               </a>
               .
             </p>

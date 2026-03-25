@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://firelog.pro"),
+  metadataBase: new URL("https://firelogai.com"),
   title: "FireLog — Digital Fire Inspection Reports (NFPA Compliant)",
   description:
     "Replace paper inspection checklists with mobile-first NFPA forms. Branded PDF reports, deficiency tracking, and compliance documentation. $79/mo, unlimited users.",
@@ -45,7 +45,7 @@ const structuredData = [
     name: "FireLog",
     applicationCategory: "BusinessApplication",
     operatingSystem: "iOS, Android, Web",
-    url: "https://firelog.pro",
+    url: "https://firelogai.com",
     description:
       "NFPA-compliant digital fire inspection software for fire protection contractors. Mobile forms, branded PDF reports, deficiency tracking, and compliance documentation.",
     offers: {
@@ -64,14 +64,14 @@ const structuredData = [
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "FireLog",
-    url: "https://firelog.pro",
-    logo: "https://firelog.pro/favicon-32.png",
+    url: "https://firelogai.com",
+    logo: "https://firelogai.com/favicon-32.png",
     description:
       "Digital fire inspection software for fire protection contractors. NFPA 10, 25, 72, and 80 compliant.",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "sales",
-      url: "https://firelog.pro/demo",
+      url: "https://firelogai.com/demo",
     },
     sameAs: [],
   },

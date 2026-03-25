@@ -75,8 +75,8 @@ export default function ROICalculatorPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://firelog.pro" },
-      { "@type": "ListItem", position: 2, name: "ROI Calculator", item: "https://firelog.pro/roi-calculator" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://firelogai.com" },
+      { "@type": "ListItem", position: 2, name: "ROI Calculator", item: "https://firelogai.com/roi-calculator" },
     ],
   };
 

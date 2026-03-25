@@ -34,7 +34,7 @@ const FEATURES = [
   { title: "Building Owner Portal", desc: "Give building owners read-only access to their inspection records and deficiency status. Reduces phone calls by 80%." },
 ];
 
-const SIGNUP_URL = "https://app.firelog.pro";
+const SIGNUP_URL = "https://app.firelogai.com";
 
 export default function LPNFPAComplianceSoftware() {
   return (

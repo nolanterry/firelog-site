@@ -92,7 +92,7 @@ export default async function Image() {
               fontWeight: 700,
             }}
           >
-            Try Free for 14 Days → firelog.pro
+            Try Free for 14 Days → firelogai.com
           </div>
         </div>
       </div>

@@ -76,10 +76,10 @@ export default function ContactPage() {
                   </div>
                   <h3 className="font-semibold mb-1">Email us</h3>
                   <a
-                    href="mailto:hello@firelog.pro"
+                    href="mailto:hello@firelogai.com"
                     className="text-red-600 text-sm hover:underline"
                   >
-                    hello@firelog.pro
+                    hello@firelogai.com
                   </a>
                 </CardContent>
               </Card>
@@ -103,7 +103,7 @@ export default function ContactPage() {
                     Skip the conversation — start your 14-day free trial and see for yourself.
                   </p>
                   <Button asChild size="sm" className="w-full">
-                    <Link href="https://app.firelog.pro">
+                    <Link href="https://app.firelogai.com">
                       Start Free Trial
                       <ArrowRight className="size-4 ml-1" />
                     </Link>
