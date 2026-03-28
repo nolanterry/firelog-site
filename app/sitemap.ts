@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const comparePages: MetadataRoute.Sitemap = [
+    { url: `${base}/partners`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/zenfire`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/servicetrade`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
