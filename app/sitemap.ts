@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { BLOG_POSTS, getAllTags } from "@/lib/blog";
 import { AUTHORS } from "@/lib/authors";
+import { GLOSSARY_TERMS } from "@/lib/glossary-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://firelogai.com";
@@ -38,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const comparePages: MetadataRoute.Sitemap = [
+    { url: `${base}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/zenfire`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/servicetrade`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/paper`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -69,5 +71,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...blogPages, ...authorPages, ...changelogPages, ...comparePages, ...legalPages, ...tagPages];
+  const glossaryPages: MetadataRoute.Sitemap = [
+    { url: `${base}/glossary`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    ...GLOSSARY_TERMS.map((term) => ({
+      url: `${base}/glossary/${term.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [...staticPages, ...blogPages, ...authorPages, ...changelogPages, ...comparePages, ...legalPages, ...tagPages, ...glossaryPages];
 }
