@@ -3,6 +3,7 @@ import { BLOG_POSTS, getAllTags } from "@/lib/blog";
 import { AUTHORS } from "@/lib/authors";
 import { GLOSSARY_TERMS } from "@/lib/glossary-data";
 import { WEBINARS } from "@/lib/webinar-data";
+import { REPORTS } from "@/lib/report-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://firelogai.com";
@@ -27,6 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/use-cases/fire-sprinkler-companies`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/use-cases/fire-alarm-contractors`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/use-cases/fire-extinguisher-services`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
@@ -38,6 +41,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const changelogPages: MetadataRoute.Sitemap = [
     { url: `${base}/changelog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const comparePages: MetadataRoute.Sitemap = [
@@ -51,6 +56,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/compare/zenfire`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/servicetrade`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/paper`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const legalPages: MetadataRoute.Sitemap = [
@@ -58,6 +65,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/accessibility`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
     { url: `${base}/security`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const authorPages: MetadataRoute.Sitemap = [
@@ -68,6 +77,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const tagPages: MetadataRoute.Sitemap = [
@@ -78,6 +89,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.5,
     })),
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const glossaryPages: MetadataRoute.Sitemap = [
@@ -88,6 +101,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   const webinarPages: MetadataRoute.Sitemap = [
@@ -98,6 +113,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
+    { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   return [...staticPages, ...blogPages, ...authorPages, ...changelogPages, ...comparePages, ...legalPages, ...tagPages, ...glossaryPages, ...webinarPages];
