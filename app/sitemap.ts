@@ -4,6 +4,7 @@ import { AUTHORS } from "@/lib/authors";
 import { GLOSSARY_TERMS } from "@/lib/glossary-data";
 import { WEBINARS } from "@/lib/webinar-data";
 import { REPORTS } from "@/lib/report-data";
+import { getAllCaseStudySlugs } from "@/lib/case-study-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://firelogai.com";
@@ -19,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.6 },
     { url: `${base}/customers`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    ...getAllCaseStudySlugs().map((slug) => ({ url: `${base}/customers/${slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
     { url: `${base}/demo`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/help`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/resources`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
