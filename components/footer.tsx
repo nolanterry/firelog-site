@@ -27,6 +27,7 @@ export function Footer() {
             <Link href="/partners" className="hover:text-white transition-colors">Partners</Link>
             <Link href="/careers" className="hover:text-white transition-colors">Careers</Link>
             <Link href="/reports" className="hover:text-white transition-colors">Reports</Link>
+            <Link href="/developers" className="hover:text-white transition-colors">Developers</Link>
             <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
           </div>
           <div className="flex gap-6 text-sm text-slate-400">

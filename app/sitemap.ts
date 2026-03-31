@@ -65,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/accessibility`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
     { url: `${base}/security`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${base}/developers`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${base}/reports`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
     ...REPORTS.map((r) => ({ url: `${base}/reports/${r.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
