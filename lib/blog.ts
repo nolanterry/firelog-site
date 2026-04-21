@@ -11109,4 +11109,1528 @@ Commissioning documents should live alongside ongoing inspection records in a si
 [Start every system right with FireLog →](https://app.firelogai.com)
 `,
   },
+  {
+    slug: "fire-sprinkler-obstruction-investigation-nfpa-25",
+    tags: ["nfpa-25", "sprinklers", "compliance"],
+    author: "nolan-terry",
+    title: "Fire Sprinkler Obstruction Investigation: NFPA 25 Chapter 14 Guide",
+    description: "Complete guide to fire sprinkler obstruction investigation per NFPA 25 Chapter 14 — when to investigate, what to look for, and how to document findings.",
+    date: "2026-04-21",
+    content: `
+# Fire Sprinkler Obstruction Investigation: NFPA 25 Chapter 14 Guide
+
+Obstructions inside fire sprinkler piping are a silent killer of system reliability. Microbiologically influenced corrosion (MIC), scale, foreign materials, and organic growth can restrict water flow enough to render a system useless during a fire — even though it passes a visual inspection.
+
+NFPA 25 Chapter 14 lays out exactly when and how to investigate for internal obstructions. If you're not performing these assessments, you're missing a significant revenue opportunity and leaving your clients at risk.
+
+## When Is an Obstruction Investigation Required?
+
+Per NFPA 25, obstruction investigation is triggered by any of these conditions:
+
+### Mandatory Triggers
+- **Defective fire hydrant backflow** — foreign materials observed during flushing
+- **System has been returned to service** after extended shutdown (30+ days)
+- **Plugged sprinkler heads** found during routine inspection
+- **Foreign material** discharged during water flow tests
+- **MIC identified** in the system or nearby systems on same water supply
+- **Pinhole leaks** indicating internal corrosion
+- **Reduced flow** during fire pump tests compared to original acceptance test
+- **50-year-old systems** — any steel pipe system over 50 years old requires assessment
+- **New construction nearby** that may have introduced sediment into the water supply
+
+### Best Practice Triggers
+- **Every 5 years** as part of a comprehensive internal pipe assessment
+- **After any fire event** where the system discharged
+- **When acquiring a new client** — baseline assessment
+- **Before re-occupancy** of buildings vacant more than 1 year
+
+## The Investigation Process
+
+### Step 1: Assessment Planning
+
+Before opening pipe, document:
+- System age and pipe material (black steel, galvanized, CPVC)
+- Water supply source and quality
+- Previous obstruction history
+- Building use and environmental conditions
+- Location of low points, dead legs, and trapped sections
+
+### Step 2: Flushing Points Inspection
+
+Open the system at these locations:
+- **Main drain** — observe water clarity, debris, odor
+- **Inspector's test connection** — run for 60 seconds minimum
+- **Cross main drain (low point)** — if accessible
+- **Dead-end branch lines** — highest risk for sediment
+
+Document:
+- Water color (clear, brown, black, orange)
+- Particulate matter (collect samples in clear container)
+- Odor (sulfur/rotten egg = MIC indicator)
+- Flow rate compared to baseline
+
+### Step 3: Internal Pipe Inspection
+
+For comprehensive assessment:
+- **Remove sprinkler heads** at strategic locations and inspect orifice
+- **Cut pipe sections** at representative points (low points, elbows, tees)
+- **Borescope inspection** — camera inserted through openings
+- **Coupon testing** — install corrosion coupons for ongoing monitoring
+
+### Step 4: Laboratory Analysis (If Needed)
+
+When MIC is suspected:
+- Pipe samples sent for metallurgical analysis
+- Water samples for bacteria cultures (sulfate-reducing bacteria, iron-related bacteria)
+- Tubercle analysis to determine corrosion type
+
+## Common Obstruction Types
+
+### Foreign Materials
+- **Construction debris** — sawdust, drywall mud, joint compound, wire nuts
+- **Pipe scale** — rust flakes from internal corrosion
+- **Zebra mussels/marine growth** — raw water supply systems
+- **Insects/organic matter** — dry pipe systems with open vents
+
+### Corrosion Products
+- **MIC tubercles** — distinctive mound-shaped deposits
+- **General corrosion scale** — uniform rust buildup
+- **Galvanic corrosion** — at dissimilar metal joints
+- **Pitting corrosion** — localized deep pits under deposits
+
+### Ice/Freeze Damage
+- **Ice plugs** in cold areas
+- **Burst pipe residue** after freeze events
+- **Calcium deposits** from repeated freeze/thaw
+
+## Documenting Findings
+
+Your obstruction investigation report should include:
+
+### Report Structure
+1. **System identification** — building, system type, age, pipe material
+2. **Investigation trigger** — what prompted the assessment
+3. **Inspection points** — map showing where you opened/inspected
+4. **Findings per location** — photos, measurements, observations
+5. **Severity assessment** — minor/moderate/severe/critical
+6. **Recommendations** — flush, treat, re-pipe, monitor
+7. **Timeline** — urgency of corrective actions
+8. **Cost estimate** — for recommended remediation
+
+### Photo Documentation
+- Overall pipe condition (exterior)
+- Cut section interior (cross-section)
+- Close-up of deposits/obstructions
+- Measurement reference (ruler in frame)
+- Water samples in clear containers against white background
+
+## Remediation Options
+
+Based on findings, recommend:
+
+| Severity | Condition | Action |
+|----------|-----------|--------|
+| Minor | Light discoloration, minimal deposits | Flush and re-inspect in 1 year |
+| Moderate | Noticeable deposits, reduced ID by <25% | Chemical treatment + flush |
+| Severe | Significant obstruction, ID reduced 25-50% | Section replacement or full system flush |
+| Critical | System function compromised, ID reduced >50% | Emergency re-pipe, system impairment notice |
+
+## Revenue Opportunity
+
+Obstruction investigations are high-value, specialized work:
+
+- **Initial assessment:** $800-$2,500 depending on system size
+- **Full investigation with lab testing:** $2,000-$8,000
+- **Remediation (chemical treatment):** $3,000-$15,000
+- **Section replacement:** $5,000-$50,000+
+- **Ongoing monitoring program:** $500-$1,500/year
+
+Most fire protection companies ignore this service. Positioning yourself as an obstruction specialist differentiates you from competitors who only do basic inspections.
+
+## Pro Tips
+
+1. **Always photograph before touching** — document baseline before you flush or open anything
+2. **Keep a sample kit** — clear containers, labels, pH strips, temperature gauge
+3. **Know your lab** — establish a relationship with a metallurgical lab before you need one
+4. **Track trends** — MIC is geographic; if one building has it, nearby buildings on the same water supply likely do too
+5. **Offer monitoring programs** — install corrosion coupons and bill quarterly for inspection/reporting
+
+[Document obstruction investigations with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-alarm-voice-notification-systems-nfpa-72",
+    tags: ["nfpa-72", "fire-alarms", "systems"],
+    author: "nolan-terry",
+    title: "Fire Alarm Voice Notification Systems: NFPA 72 Inspection & Testing Guide",
+    description: "How to inspect and test fire alarm voice notification/evacuation systems per NFPA 72 — speaker placement, intelligibility testing, and common deficiencies.",
+    date: "2026-04-21",
+    content: `
+# Fire Alarm Voice Notification Systems: NFPA 72 Inspection & Testing Guide
+
+Voice notification systems (also called voice evacuation, mass notification, or emergency communication systems) are among the most complex fire alarm components to inspect and test. Unlike simple horn/strobe notification, voice systems must deliver intelligible emergency messages — and proving intelligibility requires specific testing methods.
+
+As buildings get larger and codes get stricter, voice notification is becoming standard in high-rises, healthcare, assembly occupancies, and large retail. If you're not comfortable testing these systems, you're leaving money on the table.
+
+## Where Voice Notification Is Required
+
+NFPA 72 and IBC/IFC require voice notification in:
+
+- **High-rise buildings** (75+ feet) — most jurisdictions
+- **Healthcare/hospitals** — defend-in-place strategy requires targeted messaging
+- **Large assembly occupancies** (300+ persons) — arenas, convention centers
+- **Airport terminals** and transit stations
+- **Covered mall buildings** — most over 50,000 SF
+- **Emergency communication systems** (mass notification)
+- **Large educational facilities** — varies by jurisdiction
+- **Buildings with staged evacuation** — any phased egress plan
+
+## Annual Inspection Checklist
+
+### Visual Inspection (Every Speaker/Amplifier)
+- ✅ Speaker grilles undamaged and unobstructed
+- ✅ No paint overspray on speaker cones
+- ✅ Ceiling tiles not blocking recessed speakers
+- ✅ Speaker wire connections tight (at accessible locations)
+- ✅ Amplifier rack ventilation clear
+- ✅ Backup batteries present and not swollen/leaking
+- ✅ Amplifier indicator lights showing normal status
+- ✅ Pre-recorded message media present (SD cards, drives)
+- ✅ Microphone stations accessible and undamaged
+
+### Functional Testing (Annual)
+- ✅ Each speaker circuit verified for signal (tone or message)
+- ✅ Pre-recorded messages play correctly (verify content accuracy)
+- ✅ Live voice capability (paging microphone) operational
+- ✅ Priority override (fire alarm overrides background music/paging)
+- ✅ Backup amplifier switchover (if equipped)
+- ✅ Battery backup — operate system on battery for rated duration
+- ✅ Zone selection — verify correct speakers activate per zone
+- ✅ Staged evacuation sequences (if programmed)
+- ✅ All-call capability
+- ✅ Survivability — circuits monitored for open/short/ground
+
+### Intelligibility Testing
+
+This is where most contractors struggle. NFPA 72 requires that voice messages be "intelligible" in all occupied areas. But how do you prove it?
+
+#### Methods:
+1. **STI/STIPA measurement** — Signal-to-Transmission Index using calibrated meter
+   - Minimum 0.50 STI for "acceptable" intelligibility
+   - 0.65+ STI for "good" intelligibility
+   - Measured at ear height in worst-case ambient conditions
+   
+2. **Acoustically Distinguishable Spaces (ADS) method**
+   - Divide building into ADS based on acoustic properties
+   - Test representative points in each ADS
+   - NFPA 72 Annex D provides detailed guidance
+
+3. **CIS (Common Intelligibility Scale)**
+   - Alternative measurement correlating to STI
+   - Minimum 0.70 CIS for acceptable
+
+#### When Full Intelligibility Testing Is Required:
+- Initial system acceptance
+- After significant renovation (new walls, ceilings, flooring)
+- After speaker additions or relocations
+- When complaints about message clarity are received
+- Per AHJ requirement (some jurisdictions require periodic re-testing)
+
+## Common Deficiencies
+
+### Design Issues
+- **Speaker spacing too wide** — dead spots between coverage areas
+- **Wrong speaker type** — ceiling speakers in high-bay warehouse (need horn speakers)
+- **Inadequate amplifier power** — speakers brownout during all-call
+- **Missing speakers** — added after tenant fit-out without updating fire alarm
+
+### Environmental Issues
+- **High ambient noise** — HVAC, machinery, music drowning out messages
+- **Reverberant spaces** — hard surfaces causing echo/unintelligibility
+- **Painted speakers** — latex paint on cone reduces output 3-6 dB
+- **Blocked speakers** — furniture, displays, ceiling tiles covering grille
+
+### Programming Issues
+- **Outdated messages** — building name changed, floors renumbered
+- **Wrong zone mapping** — speakers activating in wrong areas
+- **No priority override** — background music/paging not cut during alarm
+- **Message too fast** — recorded message cadence too rapid for comprehension
+
+### Maintenance Issues
+- **Dead amplifier channels** — no redundancy, speakers silent
+- **Battery failure** — system dies in 5 minutes on backup
+- **Corroded connections** — outdoor/humid environment speaker wiring
+- **Missing components** — microphone removed, not replaced
+
+## Testing Equipment You Need
+
+| Equipment | Purpose | Cost Range |
+|-----------|---------|------------|
+| STI/STIPA meter | Intelligibility measurement | $3,000-$8,000 |
+| Sound level meter (Type 2 min) | Ambient noise, SPL verification | $300-$1,500 |
+| Audio signal generator | Speaker circuit verification | $200-$500 |
+| Tone generator/tracer | Wire identification | $100-$300 |
+| Decibel meter app (screening) | Quick SPL reference | Free-$20 |
+
+For contractors just entering voice system testing, start with a good sound level meter and learn the ADS method before investing in an STI meter. Many companies subcontract the formal intelligibility testing and handle routine functional tests in-house.
+
+## Documentation Requirements
+
+Per NFPA 72, document:
+- Date and type of test performed
+- System components tested (by zone/circuit)
+- Pass/fail for each speaker circuit
+- SPL readings at representative locations (if measured)
+- STI/CIS scores (if intelligibility tested)
+- Ambient noise levels at time of test
+- Deficiencies found and corrective actions
+- Name and certification of testing personnel
+
+## Pricing Voice System Inspections
+
+Voice systems take 2-4x longer than conventional notification testing. Price accordingly:
+
+- **Small system (1-2 amplifiers, <50 speakers):** $800-$1,500
+- **Mid-size (3-6 amplifiers, 50-200 speakers):** $1,500-$4,000
+- **Large (7+ amplifiers, 200+ speakers):** $4,000-$12,000
+- **Full intelligibility testing (add-on):** $2,000-$8,000 depending on ADS count
+
+Don't bundle voice system testing into your standard fire alarm inspection price. It's specialized work that deserves specialized pricing.
+
+[Track voice system inspections with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "foam-fire-suppression-system-inspection-guide",
+    tags: ["inspection", "systems", "nfpa"],
+    author: "firelog-team",
+    title: "Foam Fire Suppression System Inspection: Complete Testing & Maintenance Guide",
+    description: "How to inspect foam fire suppression systems — NFPA 11 requirements, foam concentrate testing, proportioner checks, and discharge testing procedures.",
+    date: "2026-04-21",
+    content: `
+# Foam Fire Suppression System Inspection: Complete Testing & Maintenance Guide
+
+Foam fire suppression systems protect high-hazard occupancies where water alone isn't enough — aircraft hangars, fuel storage, chemical plants, loading racks, and flammable liquid storage rooms. These systems are complex, expensive, and undertested by most fire protection contractors.
+
+If you can build competence in foam system inspection, you'll access a lucrative niche that most competitors avoid.
+
+## Where Foam Systems Are Installed
+
+- **Aircraft hangars** (NFPA 409)
+- **Flammable liquid storage** — tank farms, drum storage
+- **Loading racks** — fuel and chemical transfer operations
+- **Marine terminals** — dock foam monitors
+- **Power generation** — turbine lube oil, transformer protection
+- **Warehouse high-rack storage** — some Group A plastics
+- **Heliports and helipads**
+- **Military fueling operations**
+- **Refineries and petrochemical**
+
+## Applicable Codes & Standards
+
+- **NFPA 11** — Standard for Low-, Medium-, and High-Expansion Foam
+- **NFPA 16** — Standard for the Installation of Foam-Water Sprinkler and Foam-Water Spray Systems
+- **NFPA 25** — Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems (Chapter 11 covers foam-water systems)
+- **NFPA 30** — Flammable and Combustible Liquids Code (references foam requirements)
+- **API 2021** — Management of Atmospheric Storage Tank Fires (petroleum industry)
+
+## Inspection Frequencies
+
+| Component | Frequency | Standard |
+|-----------|-----------|----------|
+| Foam concentrate level | Monthly | NFPA 25 |
+| Proportioner check (visual) | Monthly | NFPA 25 |
+| Foam concentrate condition | Annually | NFPA 11/25 |
+| System functional test | Annually | NFPA 25 |
+| Full discharge test | Per manufacturer/AHJ (typically 3-10 years) | NFPA 11 |
+| Foam concentrate lab analysis | Annually | NFPA 11 |
+| Strainers/filters | Quarterly | NFPA 25 |
+| Bladder tank inspection | Annually | Manufacturer |
+
+## Annual Inspection Checklist
+
+### Foam Concentrate Storage
+- ✅ Tank/bladder level adequate (check sight glass or dip measurement)
+- ✅ No leaks at fittings, valves, or tank seams
+- ✅ Concentrate color and clarity (compare to reference sample)
+- ✅ No separation, crystallization, or sediment
+- ✅ Storage temperature within manufacturer's range
+- ✅ Tank vent operational (atmospheric tanks)
+- ✅ Labeling — type, manufacturer, date of last fill, expiration
+
+### Proportioning Equipment
+- ✅ Proportioner type identified (bladder tank, inline eductor, balanced pressure, CAFS)
+- ✅ Inlet/outlet pressures within design range
+- ✅ No corrosion or physical damage
+- ✅ Metering orifices clear
+- ✅ Bypass/test connections operational
+- ✅ Pressure gauges calibrated and readable
+
+### Distribution Piping
+- ✅ Piping free of corrosion (especially at solution/concentrate contacts)
+- ✅ No leaks at joints or connections
+- ✅ Hangers and supports secure
+- ✅ Foam makers/generators intact and unobstructed
+- ✅ Discharge devices (foam chambers, monitors, nozzles) clear
+- ✅ Drain valves closed
+- ✅ No unauthorized modifications
+
+### Detection & Actuation
+- ✅ Detection devices operational (heat, flame, manual pull)
+- ✅ Control panel indicating normal
+- ✅ Releasing solenoids/actuators functional
+- ✅ Manual release accessible and labeled
+- ✅ Abort/hold switches operational (where installed)
+- ✅ Supervisory signals transmitting to monitoring station
+
+## Foam Concentrate Testing
+
+### Field Quick-Test
+1. **Visual inspection** — color, clarity, sediment
+2. **pH test** — compare to manufacturer's spec (typically 6.0-9.5)
+3. **Specific gravity** — refractometer or hydrometer reading vs. original spec
+4. **Expansion test** — 1000ml sample, generate foam, measure expansion ratio
+
+### Laboratory Analysis (Annual)
+Send 1-liter sample to qualified laboratory for:
+- pH value
+- Specific gravity
+- Viscosity (Brookfield)
+- Surface tension
+- Interfacial tension
+- Expansion ratio
+- 25% drain time
+- Spreading coefficient
+- Freeze point (if applicable)
+- Sediment content
+- Fluorine content (AFFF/AR-AFFF)
+
+**Critical:** Labs must test against the manufacturer's original specification, not generic standards. Keep a reference sample from each batch delivered.
+
+### When to Replace Concentrate
+- Lab results outside manufacturer's specifications
+- Visible contamination, separation, or crystallization
+- Mixed with incompatible concentrate
+- Age exceeds manufacturer's recommended shelf life (typically 20-25 years for protein, 15-20 for AFFF, 10-15 for AR-AFFF — varies)
+- Failed expansion or drain time tests
+
+## Proportioner Testing
+
+### Balanced Pressure Proportioner
+- Check foam pump operation and RPM
+- Verify sensing line connections
+- Confirm ratio controller is modulating properly
+- Measure concentrate flow at test connection
+- Calculate actual proportion ratio (should be within ±10% of design)
+
+### Bladder Tank
+- Check bladder integrity (no water in concentrate or concentrate in water)
+- Verify expulsion pressure adequate
+- Check air pressure on diaphragm-type tanks
+- Inspect sight glass for proper level indication
+
+### Inline Eductors
+- Verify inlet pressure within design range (minimum/maximum)
+- Check for debris at metering orifice
+- Confirm proper back-pressure (nozzle/device elevation)
+- Inspect pickup tube condition
+
+## Full Discharge Testing
+
+Full discharge tests are the gold standard but are expensive and create environmental concerns:
+
+### When Required
+- Initial system acceptance
+- After major system modifications
+- Per AHJ schedule (varies — some require every 3-5 years)
+- When concentrate type is changed
+- When proportioner is replaced or rebuilt
+
+### Procedure
+1. Coordinate with AHJ and facility
+2. Obtain environmental permits (foam collection required)
+3. Prepare containment — foam dams, berms, vacuum trucks
+4. Record pre-test system pressures and levels
+5. Activate system per design scenario
+6. Measure: discharge time, foam quality, coverage, expansion ratio
+7. Collect foam samples during discharge
+8. Contain and dispose of discharged foam per regulations
+9. Refill system with fresh concentrate
+10. Return system to service and verify normal status
+
+### Environmental Considerations
+- **PFAS regulations** — AFFF contains PFAS ("forever chemicals"), many jurisdictions restricting/banning discharge testing
+- **Containment mandatory** — no foam to storm drains, waterways, or soil
+- **Fluorine-free alternatives** — many facilities transitioning to fluorine-free foam (F3)
+- **Document disposal** — chain of custody for foam waste
+
+## Revenue Opportunity
+
+Foam system inspections command premium rates:
+
+| Service | Typical Price |
+|---------|--------------|
+| Annual visual inspection | $500-$2,000 |
+| Concentrate lab testing (per sample) | $300-$800 |
+| Proportioner functional test | $1,000-$3,000 |
+| Full discharge test (including concentrate replacement) | $5,000-$50,000+ |
+| Concentrate replacement (material + labor) | $2,000-$20,000+ |
+| System design review/assessment | $1,500-$5,000 |
+
+The barrier to entry (knowledge, equipment, insurance) means less competition and higher margins.
+
+## Certifications & Training
+
+To be credible in foam system work:
+- **NICET Level III/IV Fire Protection** — includes foam systems
+- **Manufacturer training** — Chemguard, Tyco/Johnson Controls, Kidde, National Foam
+- **NFPA 11 certified inspector** — not widely offered but demonstrates expertise
+- **Hazmat awareness** — for PFAS handling/disposal requirements
+
+[Track foam system inspections with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-protection-restaurants-commercial-kitchens",
+    tags: ["commercial", "inspection", "nfpa"],
+    author: "nolan-terry",
+    title: "Fire Protection for Restaurants & Commercial Kitchens: Complete Inspection Guide",
+    description: "Everything fire protection contractors need to know about restaurant and commercial kitchen fire suppression — hood systems, Ansul inspections, NFPA 96 compliance, and growing this service line.",
+    date: "2026-04-21",
+    content: `
+# Fire Protection for Restaurants & Commercial Kitchens: Complete Inspection Guide
+
+Restaurants and commercial kitchens are a fire protection contractor's bread and butter (pun intended). With over 1 million restaurants in the US alone, each requiring semi-annual hood suppression inspections, this is a massive recurring revenue stream.
+
+But kitchen fire suppression goes beyond pulling a tag. Here's the complete guide to inspecting, testing, and maintaining commercial kitchen fire protection systems.
+
+## What Needs Inspection
+
+Every commercial kitchen with cooking equipment that produces grease-laden vapors needs:
+1. **Kitchen hood suppression system** (Ansul, Kidde, Pyro-Chem, Amerex, etc.)
+2. **Type I exhaust hood** — grease-rated ductwork
+3. **Fire extinguisher** — Class K (wet chemical) within 30 feet of cooking equipment
+4. **Gas shut-off** — automatic gas valve closure on system actuation
+5. **Electrical shut-off** — cooking equipment power kill on actuation
+6. **Duct access panels** — for cleaning and inspection
+
+## Applicable Codes
+
+- **NFPA 96** — Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations
+- **NFPA 17A** — Standard for Wet Chemical Extinguishing Systems
+- **NFPA 10** — Portable Fire Extinguishers (Class K requirements)
+- **UL 300** — Standard for Fire Testing of Fire Extinguishing Systems for Protection of Commercial Cooking Equipment
+- **Local health department** — often references NFPA 96 for hood cleaning frequency
+
+## Inspection Frequency
+
+| Component | Frequency | Reference |
+|-----------|-----------|-----------|
+| Hood suppression system | Semi-annual (every 6 months) | NFPA 96 / NFPA 17A |
+| Class K fire extinguisher | Annual | NFPA 10 |
+| Fusible links | Semi-annual (replace annually or per manufacturer) | NFPA 17A |
+| Ductwork inspection | Semi-annual (concurrent with system inspection) | NFPA 96 |
+| Gas shut-off valve | Semi-annual | NFPA 96 |
+| Hood cleaning | Monthly to annually (based on cooking volume) | NFPA 96 Table 11.4 |
+
+### Hood Cleaning Frequency (NFPA 96 Table 11.4)
+- **Monthly** — high-volume cooking (24-hour operations, charbroiling, wok cooking)
+- **Quarterly** — moderate-volume cooking (most restaurants)
+- **Semi-annually** — low-volume cooking (churches, seasonal businesses, day camps)
+- **Annually** — very low-volume (warming ovens only, no grease-producing)
+
+## Semi-Annual System Inspection Checklist
+
+### Suppression System
+- ✅ System tag current (within 6 months)
+- ✅ Agent cylinder(s) in place, gauge in green/normal
+- ✅ Manual pull station accessible and labeled
+- ✅ Remote pull station (if equipped) accessible
+- ✅ Tamper pin/seal intact on manual release
+- ✅ Fusible links clean and properly positioned (165°F standard, 280°F-360°F listed links for high-temp)
+- ✅ Nozzles properly aimed at protected appliance
+- ✅ Nozzle caps/blow-off caps in place (if applicable)
+- ✅ No blocked or missing nozzles
+- ✅ Piping and fittings secure, no corrosion
+- ✅ Detection line/cable routing correct
+- ✅ No equipment moved from under nozzle protection
+- ✅ Agent expiration date valid (wet chemical shelf life)
+- ✅ System compliance label legible
+
+### Fusible Links
+- ✅ Removed and cleaned (or replaced if heavily grease-coated)
+- ✅ Correct temperature rating verified
+- ✅ Properly positioned per installation drawing
+- ✅ Link-to-detector cable connected and tensioned
+- ✅ New links installed if worn, corroded, or painted
+
+### Gas Shut-Off
+- ✅ Gas valve operational — trips on system actuation
+- ✅ Valve resets properly after test
+- ✅ Gas piping labeled
+- ✅ Manual gas shut-off accessible
+
+### Electrical Interlock
+- ✅ Equipment shunt trip operational on system actuation
+- ✅ Proper cooking equipment turns off
+- ✅ Electrical connections secure
+
+### Exhaust System
+- ✅ Exhaust fan operational
+- ✅ Ductwork access panels in place
+- ✅ Visible grease buildup assessment (refer for cleaning if needed)
+- ✅ Damper operation (fire/smoke dampers in duct)
+- ✅ Hood filters in place and seated properly
+
+## Common Deficiencies
+
+### Critical (System Won't Work)
+- **Equipment moved** — fryer relocated but nozzle not re-aimed
+- **Missing nozzles** — typically knocked off during cleaning
+- **Disconnected gas valve** — staff bypassed after accidental discharge
+- **Expired agent** — wet chemical past shelf life
+- **Blocked manual pull** — covered by signage, equipment, or boxes
+- **Added equipment without coverage** — new fryer installed, no nozzle above it
+
+### Major (Reduced Effectiveness)
+- **Heavily greased fusible links** — won't melt at rated temperature
+- **Wrong link temperature** — 360°F link over a solid fuel appliance requiring 165°F
+- **Exhaust not running** — system needs airflow for proper agent distribution
+- **Grease buildup in ductwork** — fire can spread beyond suppression area
+- **Hood filters missing or damaged** — grease enters ductwork
+
+### Minor (Documentation/Code)
+- **Tag expired** — inspection overdue
+- **No compliance label** — system installed or modified without documentation
+- **Class K extinguisher missing or wrong type** — ABC where K is required
+- **No system drawing posted** — required by most manufacturers
+
+## Documenting Kitchen Inspections
+
+Each inspection report should include:
+- Restaurant name, address, inspection date
+- System manufacturer, model, agent type
+- Number of cylinders, size, condition
+- Nozzle count and coverage map
+- Fusible link locations and temperatures
+- Pass/fail for each checklist item
+- Photos of deficiencies
+- Hood cleaning recommendation
+- Next inspection due date
+- Technician name and certification number
+
+## Pricing Kitchen Systems
+
+Kitchen suppression is competitive but steady. Typical pricing:
+
+| Service | Price Range |
+|---------|------------|
+| Semi-annual inspection (1 hood, 1 system) | $150-$350 |
+| Semi-annual inspection (multiple hoods/systems) | $250-$600 |
+| Fusible link replacement (set) | $50-$150 |
+| Recharge after discharge (wet chemical) | $400-$1,200 |
+| New nozzle installation (add equipment) | $200-$500 per nozzle |
+| System re-design (equipment layout change) | $800-$3,000 |
+| Annual Class K extinguisher inspection | $30-$75 |
+
+### Building the Restaurant Book of Business
+- **Target national chains** — Chick-fil-A, McDonald's, etc. use regional contractors
+- **Partner with hood cleaning companies** — they're in kitchens monthly, great referral source
+- **Health department connections** — inspectors often ask "who can fix this?"
+- **Property management companies** — manage multiple restaurant properties
+
+## UL 300 Compliance
+
+Since November 1994, all new kitchen suppression systems must be UL 300 tested. Key requirements:
+- Systems must be tested with the specific cooking media and appliance types they protect
+- Wet chemical agent (replaced dry chemical in most applications)
+- Post-fire security — system must keep fire suppressed for extended period
+- All listed components — can't mix manufacturers
+
+**If you encounter a pre-UL 300 dry chemical system**, it's grandfathered in most jurisdictions but:
+- Cannot be modified or extended
+- Replacement parts may not be available
+- Recommend upgrade to UL 300 wet chemical system
+- Many insurance companies won't cover pre-UL 300 systems
+
+[Track kitchen inspections with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-alarm-device-placement-spacing-requirements",
+    tags: ["fire-alarms", "nfpa-72", "compliance"],
+    author: "firelog-team",
+    title: "Fire Alarm Device Placement & Spacing: NFPA 72 Quick Reference Guide",
+    description: "Quick reference for fire alarm device placement and spacing per NFPA 72 — smoke detectors, heat detectors, pull stations, notification appliances, and common installation errors to flag during inspection.",
+    date: "2026-04-21",
+    content: `
+# Fire Alarm Device Placement & Spacing: NFPA 72 Quick Reference Guide
+
+Whether you're inspecting an existing fire alarm system or reviewing a new installation, you need to verify that devices are properly placed. Incorrect spacing is one of the most common deficiencies — and one of the easiest to document when you know the rules.
+
+This guide gives you the NFPA 72 spacing requirements at a glance so you can spot problems in the field.
+
+## Smoke Detector Placement
+
+### Spot-Type Smoke Detectors (Most Common)
+
+**Spacing on smooth ceilings:**
+- **Maximum spacing:** 30 feet center-to-center (900 SF coverage per detector)
+- **Distance from wall:** Not less than 4 inches, not more than 12 inches from ceiling
+- **Sidewall mount:** 4-12 inches from ceiling, detector within 12 inches of ceiling
+
+**Ceiling height considerations:**
+- Standard: up to 10 feet ceiling height
+- 10-30 feet: spacing reduction may be required (per engineering analysis or manufacturer's data)
+- Above 30 feet: smoke detection may not be suitable without special arrangements
+
+**Key placement rules:**
+- ✅ Centered in room/corridor where possible
+- ✅ Within 21 feet of all points in a corridor
+- ✅ At the top of stairways
+- ✅ In elevator lobbies, machine rooms, and hoistways
+- ❌ Not within 3 feet of supply air diffusers
+- ❌ Not in dead air spaces (within 4 inches of wall-ceiling junction)
+- ❌ Not in areas with normal ambient conditions exceeding detector rating
+- ❌ Not directly over or near cooking appliances
+
+### Duct Smoke Detectors
+- Required when HVAC unit serves > 2,000 CFM
+- Install in supply duct downstream of filters and fan
+- Return duct: before air handler, before any exhaust or fresh air connection
+- Locate for access (maintenance panel within reach)
+- Duct probe fully spanning duct cross-section
+
+## Heat Detector Placement
+
+### Spot-Type Heat Detectors
+
+**Fixed-temperature:**
+- **Maximum spacing:** 50 feet for listed 50-foot spacing (2,500 SF per detector)
+- **Most common:** 70°F above ambient (135°F rated in normal environments)
+- **Rate-of-rise:** Same spacing, triggers on 15°F/minute rise
+
+**Placement rules:**
+- Maximum distance from ceiling: 12 inches (ceiling mount preferred)
+- Not below beams that drop > 4 inches unless beam pocket is protected
+- Reduce spacing on peaked/sloped ceilings
+- Can be used where smoke detectors aren't suitable (garages, kitchens, attics, loading docks)
+
+### Beam-Pocket Rule (Beams Deeper Than 4")
+- If beams divide ceiling into pockets:
+  - Each pocket ≤ 40 SF: single detector per pocket (or smooth ceiling spacing)
+  - Each pocket > 40 SF: treat each pocket as separate ceiling
+
+### High Ceilings
+- Heat detectors less effective above 30 feet
+- Above 30 feet: consider linear heat detection or engineering analysis
+- Response time increases significantly with ceiling height
+
+## Manual Pull Station Placement
+
+- **Within 60 inches of travel** from each building exit
+- **Mounting height:** 42-48 inches above floor (ADA requirement)
+- **Not more than 5 feet** from exit door (measured along path of travel)
+- **Within 200 feet of travel** from any point in the building to the nearest pull station
+- **Both sides of grouped exits** — if exits are more than 40 feet apart, pull station at each group
+
+**Common deficiencies:**
+- Pull station blocked by furniture, vending machines, or displays
+- Mounted too high (above 54") or too low (below 42")
+- More than 5 feet from exit
+- Missing at exits added during renovation
+- Paint or wallpaper covering device
+
+## Notification Appliance (Horn/Strobe) Placement
+
+### Audible (Horns, Speakers)
+
+- **Minimum 75 dBA** at every occupied location, OR **15 dB above ambient** (whichever is greater)
+- **Maximum 110 dBA** at any point (hearing damage threshold)
+- **Sleeping areas:** Minimum **75 dBA at pillow** for residential, **higher for ADA rooms**
+- **Temporal-3 pattern** (ANSI S3.41) required for fire alarm signals
+- **Ceiling mount:** minimum 90" AFF, maximum ceiling height
+- **Wall mount:** 90-96" AFF
+
+### Visual (Strobes)
+
+**Wall-mount strobes (most common):**
+- Mount 80-96 inches AFF (to lens, not top of device)
+- Minimum 15 candela for small rooms
+- Required candela based on room size:
+
+| Room Size (Max Dimension) | Min Candela (Wall Mount) |
+|---------------------------|--------------------------|
+| 20' × 20' | 15 cd |
+| 28' × 28' | 30 cd |
+| 40' × 40' | 60 cd |
+| 45' × 45' | 75 cd |
+| 50' × 50' | 95 cd |
+| 54' × 54' | 110 cd |
+| 63' × 63' | 135 cd |
+| 70' × 70' | 185 cd |
+
+**Ceiling-mount strobes:**
+- Candela requirements differ (typically higher per room area)
+- Must be centered in room or follow manufacturer's spacing tables
+
+**Corridor strobes:**
+- Maximum 100 feet between strobes in corridors 20 feet or less wide
+- Minimum 15 cd for corridors ≤ 20 feet wide
+- One strobe visible from any point in corridor
+
+### ADA / Accessibility Requirements
+- Strobes required in all common-use areas AND within ADA-accessible rooms
+- **Hotel/dorm rooms:** strobe + 520 Hz low-frequency sounder in ADA rooms
+- **520 Hz audible** required in sleeping areas (effective waking signal)
+- Strobe flash rate: 1-2 Hz (synchronized within field of view to prevent seizure risk)
+- **Synchronization mandatory** when two or more strobes are visible from any location
+
+## Beam/Joist/Partition Considerations
+
+### Beams and Joists on Ceiling
+- Beams ≤ 4" deep: treat as smooth ceiling
+- Beams > 4" deep: treat spaces between beams as individual compartments
+- Beams > 12" deep: each bay requires its own detector
+
+### Partitions That Don't Reach Ceiling
+- Partitions within 18" of ceiling: treat each side as separate room
+- Partitions more than 18" from ceiling: area can be treated as single space
+
+## Quick Inspection Flags
+
+When walking a building, flag these immediately:
+
+| Issue | Severity | Code Reference |
+|-------|----------|----------------|
+| Smoke detector within 3' of HVAC diffuser | Major | NFPA 72 17.7.3.2.1 |
+| Pull station >5' from exit | Major | NFPA 72 17.14.8.2 |
+| Strobe mounted <80" AFF | Major | NFPA 72 18.5.5.1 |
+| Missing detector in elevator machine room | Critical | NFPA 72 21.3.5 |
+| No strobe in ADA restroom | Major | NFPA 72 18.5.3 |
+| Detectors >30' spacing in standard ceiling | Critical | NFPA 72 17.7.3.2.3.1 |
+| Paint covering smoke detector | Critical | Voids listing |
+| Horn/strobe behind closed door to occupied space | Major | NFPA 72 18.4.3 |
+
+## Pro Tips for Inspectors
+
+1. **Carry a tape measure** — spacing disputes are resolved with measurements, not opinions
+2. **Check the original design documents** — detector spacing may be intentionally reduced from 30' for the specific ceiling height
+3. **Photograph device nameplates** — verify listed spacing for specific detector model
+4. **Note HVAC diffuser locations** — most common cause of nuisance alarms AND coverage gaps
+5. **Count strobes vs. room count** — quick sanity check for ADA compliance in hotels/dorms
+
+[Document fire alarm deficiencies with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-sprinkler-system-water-flow-testing-guide",
+    tags: ["sprinklers", "testing", "nfpa-25"],
+    author: "nolan-terry",
+    title: "Fire Sprinkler Water Flow Testing: Procedures, Equipment & NFPA 25 Requirements",
+    description: "Complete guide to fire sprinkler water flow testing — main drain tests, inspector's test procedures, flow switch testing, and how to interpret results per NFPA 25.",
+    date: "2026-04-21",
+    content: `
+# Fire Sprinkler Water Flow Testing: Procedures, Equipment & NFPA 25 Requirements
+
+Water flow testing is fundamental to fire sprinkler system inspection. It verifies that the water supply can deliver adequate pressure and flow to the system, that flow switches activate properly, and that the system hasn't deteriorated since installation.
+
+Yet many contractors rush through flow tests or skip critical measurements. Here's how to do it right.
+
+## Types of Water Flow Tests
+
+### 1. Main Drain Test (Most Common)
+**Purpose:** Verify water supply condition hasn't degraded
+**Frequency:** Quarterly (NFPA 25 §13.2.5) or annually with interim checks
+**What it tells you:** Whether supply valves are fully open, whether there's an obstruction in the supply, whether supply pressure has changed
+
+### 2. Inspector's Test Connection
+**Purpose:** Verify flow switch operation at most remote point
+**Frequency:** Quarterly (NFPA 25 §13.2.5)
+**What it tells you:** Flow switch activates, alarm signals transmit, waterflow alarm timing is within limits
+
+### 3. Fire Pump Flow Test
+**Purpose:** Verify pump performance against rated curve
+**Frequency:** Annual (NFPA 25 §8.3.3)
+**What it tells you:** Pump output at churn, 100%, and 150% of rated flow
+
+### 4. Full Flow Test (Hydrant Flow Test)
+**Purpose:** Verify actual water supply at base of riser
+**Frequency:** Every 5 years (NFPA 25 §6.3.1) or when supply concerns exist
+**What it tells you:** Static pressure, residual pressure, and available flow
+
+## Main Drain Test Procedure
+
+### Equipment Needed
+- Calibrated pressure gauge (0-200 psi, ±2% accuracy)
+- Stopwatch or timer
+- Notepad/tablet for recording
+- Previous test results for comparison
+
+### Step-by-Step
+
+1. **Notify** — Alert building occupant and monitoring company before testing
+2. **Record static pressure** — Read system pressure gauge with all drains/tests closed
+3. **Open main drain fully** — Open the 2" main drain valve completely (full open, not partial)
+4. **Wait for stabilization** — Allow pressure to stabilize (15-30 seconds)
+5. **Record residual pressure** — Note the pressure while drain is flowing
+6. **Time the test** — Flow for at least 60 seconds
+7. **Observe water** — Note color, clarity, debris (indicator of internal condition)
+8. **Close drain slowly** — Avoid water hammer
+9. **Record recovery** — How long does pressure take to return to static?
+10. **Compare to previous** — Flag if >10% drop from baseline or original acceptance
+
+### Interpreting Main Drain Results
+
+| Observation | Possible Cause | Action |
+|-------------|---------------|--------|
+| Static pressure 10+ psi lower than original | Supply valve partially closed, municipal supply issue | Verify all valves open, contact water utility |
+| Residual drops >10% vs. previous test | Partially closed valve, obstruction, supply degradation | Investigate — check PIV/OS&Y positions |
+| Very low flow (trickle) | Closed valve upstream | Immediate investigation — system impaired |
+| Dirty/discolored water | Internal corrosion, sediment | Recommend obstruction investigation per Ch. 14 |
+| Slow pressure recovery (>60 seconds) | Check valve problem, supply pipe restriction | Further investigation needed |
+| Residual = static (no pressure drop) | Gauge error, drain valve not fully open, wrong connection | Verify procedure and equipment |
+
+### Key Numbers to Record
+- Date and time
+- Static pressure (psi)
+- Residual pressure (psi)
+- Pressure drop (psi and %)
+- Time to stabilize
+- Water appearance
+- Comparison to previous test (% change)
+- Ambient temperature (important for freeze-risk systems)
+
+## Inspector's Test Connection Procedure
+
+### Purpose
+Tests the most hydraulically remote point of the system:
+- Verifies flow switch activates
+- Confirms alarm signal transmission to monitoring
+- Tests waterflow alarm timing (must be ≤90 seconds per NFPA 72)
+
+### Procedure
+1. **Notify monitoring** — put system on test
+2. **Position at inspector's test** — usually remote location with drain
+3. **Open inspector's test valve fully** — ½" or greater orifice simulates one sprinkler
+4. **Start timer** — when valve is opened
+5. **Observe flow switch activation** — panel should show "waterflow" alarm
+6. **Record time** — flow switch must activate within 90 seconds (many are 30-45 seconds)
+7. **Verify alarm transmission** — confirm monitoring received signal
+8. **Close valve** — once test is complete
+9. **Clear alarm** — reset panel, confirm monitoring back to normal
+10. **Verify flow switch resets** — no lingering alarm condition
+
+### Common Inspector's Test Issues
+- **Stuck flow switch** — paddle corroded in position, doesn't reset
+- **Slow activation** — takes >90 seconds (retarder set too high, or switch failing)
+- **No activation** — flow switch failed, wiring issue, or valve obstruction
+- **No transmission** — switch works locally but signal doesn't reach monitoring
+- **Missing/inaccessible connection** — blocked by storage, no proper drain
+
+## Quarterly vs. Annual Testing
+
+**Quarterly requirements (NFPA 25):**
+- Main drain test (full-flow)
+- Inspector's test connection (flow switch verification)
+- Alarm device test (waterflow alarm)
+- Valve position verification
+
+**Annual additions:**
+- All quarterly items PLUS
+- Full main drain with comparison to acceptance test data
+- Trip test of dry/pre-action valves
+- All inspector's test connections (if multiple risers)
+- Fire pump annual test (full flow)
+- Pressure gauge comparison/calibration check
+
+## Water Flow Testing Equipment Guide
+
+### Basic Kit ($500-$2,000)
+- Calibrated pressure gauge (glycerin-filled for vibration resistance)
+- Gauge adapter (fits standard 2½" fire dept connection or gauge port)
+- Pitot tube (for hydrant flow tests)
+- Digital timer
+- Clipboard/tablet for recording
+- 2" hose + diffuser for drain tests without flooding
+
+### Advanced Kit ($2,000-$10,000)
+- All basic items PLUS
+- Flow meter (electronic, various pipe sizes)
+- Data logger for pressure/flow recording
+- Calibration certificates for all gauges
+- Fire pump test equipment (tachometer, amperage clamp)
+- Hydrant cap gauges and flow diffusers
+
+### Calibration Requirements
+- Pressure gauges calibrated every 5 years or when accuracy is suspect
+- Replace gauges that don't return to zero when disconnected
+- Keep calibration records with test reports
+
+## Five-Year Water Supply Test
+
+Every 5 years, NFPA 25 requires a full water supply test:
+- Flow test at base of riser (hydrant flow test methodology)
+- Compare to original hydraulic design conditions
+- Verify available flow still meets system demand + safety margin
+- If supply has degraded: recommend supply improvements or system modifications
+
+This is especially important in areas with:
+- Growing municipal systems (more users on same main)
+- Aging infrastructure (tuberculation in water mains)
+- Industrial areas (large user demand variations)
+- Systems designed near the margin of available supply
+
+## Documentation Template
+
+Your flow test report should include:
+
+WATER FLOW TEST REPORT
+======================
+Building: _______________  Address: _______________
+System: ________________  Riser: _________________
+Test Date: _____________  Technician: ____________
+
+MAIN DRAIN TEST
+Static Pressure: _____ psi    Residual Pressure: _____ psi
+Pressure Drop: _____ psi (____%)
+Water Condition: Clear / Slightly Discolored / Dirty / Debris Present
+Time to Stabilize: _____ seconds
+Previous Static: _____ psi  Previous Residual: _____ psi
+Change from Previous: _____%
+
+INSPECTOR'S TEST
+Flow Switch Activation Time: _____ seconds (Limit: 90 sec max)
+Alarm Transmission Verified: Y / N
+Panel Indication: _______________
+
+COMPARISON TO ORIGINAL ACCEPTANCE DATA
+Original Static: _____ psi    Current Static: _____ psi
+Change: _____ psi (____%)
+Assessment: SATISFACTORY / REQUIRES INVESTIGATION
+
+NOTES:
+_________________________________________________
+
+[Document flow tests digitally with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-protection-industrial-facilities-osha-compliance",
+    tags: ["compliance", "commercial", "inspection"],
+    author: "nolan-terry",
+    title: "Fire Protection for Industrial Facilities: OSHA & NFPA Compliance Guide",
+    description: "Complete guide to fire protection requirements for industrial facilities — OSHA 1910 Subpart L, NFPA codes, inspection requirements, and how to build an industrial fire protection service line.",
+    date: "2026-04-21",
+    content: `
+# Fire Protection for Industrial Facilities: OSHA & NFPA Compliance Guide
+
+Industrial facilities — manufacturing plants, warehouses, chemical processing, food production, power generation — represent some of the most complex and lucrative fire protection inspection opportunities. These facilities have strict OSHA requirements, insurance mandates (FM Global, Hartford Steam Boiler), and internal safety programs that create consistent, high-value inspection demand.
+
+## Why Industrial Is Different
+
+Unlike commercial or residential fire protection, industrial facilities have:
+- **OSHA enforcement** — federal penalties for non-compliance
+- **Insurance carrier mandates** — FM Global, Hartford, and others require specific inspection programs
+- **Higher hazard classifications** — more demanding system requirements
+- **Specialized suppression** — not just sprinklers (deluge, foam, clean agent, explosion suppression)
+- **Process-specific risks** — each facility is unique
+- **Larger budgets** — safety departments have real spending authority
+- **Long contract cycles** — once you're in, you're in for years
+
+## OSHA Requirements (29 CFR 1910 Subpart L)
+
+OSHA mandates these fire protection requirements for general industry:
+
+### 1910.157 — Portable Fire Extinguishers
+- Must be provided unless employer has written fire prevention plan AND total evacuation
+- Monthly visual inspections by employer
+- **Annual maintenance** by qualified person (you)
+- 6-year internal maintenance
+- 12-year hydrostatic testing
+- Proper placement per NFPA 10 (75-foot travel distance maximum)
+
+### 1910.158 — Standpipe and Hose Systems
+- Annual inspection
+- 5-year hydrostatic test of hose
+- Proper signage and access
+
+### 1910.159 — Automatic Sprinkler Systems
+- Must be maintained in "operating condition"
+- References NFPA 25 for inspection, testing, maintenance
+- Spare sprinkler supply required (per NFPA 13)
+
+### 1910.160 — Fixed Extinguishing Systems (General)
+- Annual inspection by trained personnel
+- Semi-annual check on systems in severe corrosion environments
+- System must be restored within 24 hours of discharge
+
+### 1910.161-163 — Specific Systems
+- **Dry chemical** (1910.161) — semi-annual inspection
+- **Gaseous agents** (1910.162) — annual inspection
+- **Water spray/foam** (1910.163) — annual inspection
+
+### 1910.164 — Fire Detection Systems
+- Maintained in operating condition
+- Annual inspection — references NFPA 72
+- Restoration within 24 hours of failure
+
+### 1910.165 — Employee Alarm Systems
+- Annual testing
+- Backup power required
+- Maintenance and testing records maintained
+
+## Key OSHA Penalties (2026)
+
+| Violation Type | Per-Violation Penalty |
+|---------------|----------------------|
+| Serious | Up to $16,131 |
+| Willful | Up to $161,323 |
+| Repeat | Up to $161,323 |
+| Failure to abate | Up to $16,131/day |
+
+One plant with multiple fire protection violations can easily face $100,000+ in OSHA fines. This is why industrial safety managers take fire protection seriously — and why they'll pay premium rates for reliable inspection service.
+
+## Insurance Requirements (FM Global)
+
+FM Global-insured facilities (many large manufacturers, utilities, warehouses) have requirements that go beyond NFPA:
+
+- **FM Data Sheet inspections** — sprinkler systems inspected per FM DS 2-81
+- **Impairment reporting** — any system outage reported immediately to FM Engineering
+- **Hot work permits** — fire watch and equipment verification before welding/cutting
+- **Hydraulic adequacy** — water supply must meet FM design criteria (often more conservative than NFPA)
+- **Annual loss prevention inspection** — FM Engineer visits and reviews fire protection status
+
+### What FM Looks For
+- Complete NFPA 25 compliance records
+- No overdue deficiencies
+- Hot work program documentation
+- Sprinkler protection matches occupancy/commodity classification
+- Fire pump test data trending correctly
+- No unapproved obstructions below sprinklers (storage too close to sprinkler)
+
+## Typical Industrial Fire Protection Systems
+
+| System | Application | Inspection Standard |
+|--------|-------------|-------------------|
+| Wet sprinkler | General manufacturing, warehouse | NFPA 25 |
+| Dry sprinkler | Unheated areas, cold storage | NFPA 25 |
+| Deluge | High-hazard, transformer protection | NFPA 25 |
+| Pre-action | Data centers, electronics, cold storage | NFPA 25 |
+| Foam-water | Flammable liquid storage/handling | NFPA 11/25 |
+| Clean agent (FM-200, Novec) | Electrical rooms, server rooms | NFPA 2001 |
+| CO2 total flood | Paint booths, engine test cells | NFPA 12 |
+| Explosion suppression | Dust collection, grain handling | NFPA 69 |
+| Fire pump | Supporting all water-based systems | NFPA 25 Ch.8 |
+| Standpipe | Multi-story, large-area facilities | NFPA 25 |
+| Fire alarm/detection | All occupied industrial spaces | NFPA 72 |
+| Kitchen hood | Cafeterias, break rooms | NFPA 96/17A |
+
+## Building an Industrial Service Line
+
+### Getting In The Door
+1. **Target safety managers** — they control fire protection budgets
+2. **Speak their language** — OSHA citations, insurance premiums, downtime costs
+3. **Offer compliance audits** — "Let us find what OSHA would find, before they do"
+4. **Get FM/insurance aligned** — "We'll satisfy your carrier's requirements"
+5. **Certifications matter** — NICET, state licenses, manufacturer training
+
+### Value Proposition for Industrial
+Industrial clients don't buy "inspections." They buy:
+- **OSHA compliance** — avoid $161K/violation fines
+- **Insurance compliance** — maintain favorable premiums
+- **Uptime protection** — fire destroys production capacity
+- **Liability management** — documented compliance is legal defense
+- **Single-source convenience** — one contractor for all fire protection needs
+
+### Pricing Industrial Work
+Industrial pricing is typically 2-3x commercial rates:
+
+| Service | Commercial Rate | Industrial Rate |
+|---------|----------------|-----------------|
+| Wet sprinkler inspection (per riser) | $150-$300 | $300-$600 |
+| Dry system trip test | $300-$500 | $600-$1,200 |
+| Fire pump annual test | $500-$1,000 | $1,000-$2,500 |
+| Full facility inspection (10K-50K SF) | $500-$2,000 | $2,000-$5,000 |
+| Full facility inspection (50K-200K SF) | $2,000-$5,000 | $5,000-$15,000 |
+| 24/7 emergency service agreement | N/A | $2,000-$10,000/year retainer |
+
+### Why Industrial Pays More
+- Larger/more complex systems
+- Higher documentation requirements
+- Scheduling constraints (production schedules)
+- Safety training requirements (orientation, PPE, confined space)
+- Insurance/liability exposure
+- Faster response expectations
+- Site-specific hazard awareness needed
+
+## Safety Requirements for Your Technicians
+
+Industrial sites require your team to have:
+- **Safety orientation** — site-specific training (often 2-4 hours per site)
+- **PPE** — hard hat, safety glasses, steel toes, hi-vis (minimum)
+- **Hot work training** — if working near process equipment
+- **Confined space awareness** — riser rooms, valve pits, tunnels
+- **LOTO awareness** — lockout/tagout for valve operations
+- **Fall protection** — if accessing systems at height
+- **Drug screening** — most industrial sites require pre-access screening
+- **Background checks** — especially government/defense contractors
+
+Factor these costs into your pricing — they're real overhead that commercial clients don't require.
+
+## Documentation Requirements
+
+Industrial clients expect:
+- **Monthly reports** — system status summary
+- **Deficiency tracking** — open items with priority and timeline
+- **Compliance calendar** — upcoming inspections mapped 12 months ahead
+- **OSHA-ready records** — formatted for regulatory review
+- **Insurance reporting** — carrier-specific formats if required
+- **Digital access** — portal or shared drive (not paper binders)
+- **Trending data** — fire pump curves, main drain results graphed over time
+
+This is where digital inspection software becomes essential. Paper processes can't scale to industrial documentation requirements.
+
+[Manage industrial fire protection inspections with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-protection-system-winterization-cold-weather",
+    tags: ["sprinklers", "best-practices", "systems"],
+    author: "firelog-team",
+    title: "Fire Protection System Winterization: Preventing Freeze Damage & Cold Weather Failures",
+    description: "Complete winterization guide for fire protection systems — how to prevent freeze damage to sprinklers, fire pumps, and standpipes, plus inspection checklist for cold weather readiness.",
+    date: "2026-04-21",
+    content: `
+# Fire Protection System Winterization: Preventing Freeze Damage & Cold Weather Failures
+
+Freeze damage is one of the most expensive and preventable fire protection failures. A single frozen sprinkler pipe can cause hundreds of thousands in water damage — and leave the system impaired during peak heating-season fire risk.
+
+Every fall, fire protection contractors should be offering winterization inspections to their clients. It's seasonal revenue that prevents emergency calls and positions you as a proactive partner rather than a reactive repair shop.
+
+## The Cost of Freeze Damage
+
+- **Average sprinkler freeze claim:** $50,000-$250,000 (water damage + repair)
+- **Large facility freeze event:** $500,000-$5,000,000+ (production loss + damage + repairs)
+- **System impairment during repair:** 1-4 weeks typical
+- **Insurance premium impact:** 15-30% increase after freeze-related claim
+
+## Systems at Risk
+
+### Wet Sprinkler Systems
+- **Unheated spaces** — loading docks, attics, parking garages, vestibules
+- **Exterior wall branch lines** — especially north-facing with poor insulation
+- **Above suspended ceilings** — if return air plenum pulls cold air
+- **Stairwells** — especially with exterior doors that stay open
+- **Areas where HVAC was modified** — heat removed without sprinkler consideration
+
+### Dry/Pre-action Systems
+- **Low-point drains** — trapped water in belly sections
+- **Auxiliary drains** — must be drained before freeze weather
+- **Air compressor condensate** — water in air supply lines
+- **Drum drips** — small amounts of condensation at low points
+
+### Fire Pumps
+- **Pump house heating** — must maintain 40°F minimum (NFPA 20)
+- **Test header piping** — exterior exposed pipe
+- **Jockey pump and piping** — smaller pipe freezes faster
+- **Suction supply** — if from exposed tank or reservoir
+
+### Standpipes
+- **Manual dry standpipes** — verify drain valves function
+- **Automatic dry standpipes** — same as dry sprinkler concerns
+- **Wet standpipes in parking garages** — exposed to wind/cold
+
+### Fire Hydrants
+- **Post indicator valves** — below frost line installation
+- **Barrel drains** — must function to prevent standing water
+- **Private hydrants** — owner responsibility to maintain
+
+## Fall Winterization Inspection Checklist
+
+### Building Envelope
+- ✅ All doors to unheated spaces have closers and function properly
+- ✅ Loading dock doors close fully (no 2-inch gap at bottom)
+- ✅ Broken windows repaired — especially in mechanical rooms, stairwells
+- ✅ Attic/roof hatches close and latch properly
+- ✅ Exterior wall penetrations sealed (pipe sleeves, cable trays)
+- ✅ Heating system operational in all sprinklered spaces
+
+### Wet Sprinkler System
+- ✅ All spaces above 40°F where wet sprinkler pipe is installed
+- ✅ Heat trace systems operational on exposed pipe (test circuits)
+- ✅ Insulation intact on pipes in unconditioned spaces
+- ✅ Dead-end lines in cold areas identified and drained (or converted to dry)
+- ✅ Antifreeze systems: verify concentration is correct (annual lab test per NFPA 25)
+- ✅ Spare sprinkler supply includes appropriate temperature-rated heads
+
+### Dry/Pre-action System
+- ✅ All low-point drains operated — water removed from low points
+- ✅ Auxiliary drains drained and reset
+- ✅ Drum drips drained
+- ✅ Air compressor drain valve functioning (auto or manual)
+- ✅ Quick-opening device functional (if equipped)
+- ✅ Dry valve enclosure heated above 40°F
+- ✅ System air pressure at design level
+
+### Fire Pump
+- ✅ Pump room temperature ≥ 40°F
+- ✅ Backup heating source available (space heater, redundant HVAC)
+- ✅ Test header drain valves closed
+- ✅ Pump room ventilation balanced (not pulling frigid air)
+- ✅ Glycol concentration checked on engine cooling systems (diesel pumps)
+
+### Exterior Components
+- ✅ Fire department connections (FDC): caps in place, drains open
+- ✅ PIV stems lubricated and operational
+- ✅ Private fire hydrants: barrel drained, nozzle caps in place
+- ✅ Exposed riser piping: heat trace and insulation verified
+
+## Temperature Monitoring
+
+### Best Practice: Install Monitoring
+- **Low-temperature supervisory alarms** at:
+  - Dry valve enclosures
+  - Pump rooms
+  - Loading docks with wet pipe
+  - Attic spaces with wet pipe
+  - Any space where maintaining heat is uncertain
+
+- **Alarm thresholds:**
+  - Low-temp warning: 45°F (gives time to respond before freeze)
+  - Critical low-temp: 40°F (immediate action required)
+  - Both should transmit to monitoring station and/or building management
+
+### No Monitoring? Check Frequently
+- Daily temperature checks (or at minimum weekly) in vulnerable areas during winter
+- Verify with min/max thermometers that capture overnight lows
+- Building staff should know: if pipe is cold to touch, it's too late to wait
+
+## Emergency Response: Pipe Already Frozen
+
+If you get the call that a pipe has frozen but hasn't burst yet:
+
+1. **Do NOT apply direct flame** — torch on pipe is an insurance nightmare and fire hazard
+2. **Slow thaw with space heaters** — raise ambient temperature gradually
+3. **Heat tape application** — wrap pipe with electric heat trace
+4. **Hot towels/heat packs** — for localized freeze on accessible pipe
+5. **Open nearby faucet/drain** — allows expansion as ice melts
+
+If the pipe HAS burst:
+1. **Shut supply valve** — isolate the break
+2. **File system impairment** — notify AHJ and monitoring
+3. **Arrange fire watch** — per NFPA 25 Chapter 15
+4. **Emergency repair** — same day if possible
+5. **Restore service** — test after repair, close impairment
+
+## Antifreeze Systems (NFPA 25 Updated Requirements)
+
+Since 2022 NFPA 25 editions, antifreeze systems have significant restrictions:
+
+- **New antifreeze systems prohibited** in NFPA 13 (2022+) except very limited use
+- **Existing systems:** must verify concentration annually
+  - Glycerin: 48% max by volume (not to exceed)
+  - Propylene glycol: 38% max by volume
+- **Lab testing required** — refractometer field readings no longer sufficient for compliance records
+- **Concentration too high = fire hazard** — glycerin >48% can ignite when discharged on flame
+- **Concentration too low = freeze risk** — defeats the purpose
+
+**Recommendation:** Where possible, convert existing antifreeze loops to dry systems. The liability of maintaining correct concentration vs. the simplicity of a dry loop makes conversion the better long-term investment.
+
+## Seasonal Revenue Model
+
+Structure winterization as an annual service:
+
+| Service | Timing | Price Range |
+|---------|--------|-------------|
+| Fall winterization inspection | Oct-Nov | $300-$1,500 |
+| Low-point drain service (dry systems) | Oct-Nov + Jan-Feb | $150-$500 per visit |
+| Heat trace verification | Oct | $200-$800 |
+| Temperature monitoring installation | Sep-Oct | $500-$2,000 |
+| Antifreeze concentration test | Oct-Nov | $150-$400 per loop |
+| Spring de-winterization check | Mar-Apr | $150-$500 |
+| Emergency freeze response (after-hours) | Dec-Feb | $500-$2,000+ per incident |
+
+### How to Sell It
+- "Your building insurance requires fire sprinkler systems be protected from freezing"
+- "A $500 winterization check prevents a $50,000 freeze claim"
+- "NFPA 25 requires quarterly low-point drain service on dry systems"
+- "We found [X] last year during winterization — let's prevent it this year"
+
+[Schedule winterization inspections with FireLog →](https://app.firelogai.com)
+`,
+  },
+  {
+    slug: "fire-protection-system-5-year-internal-inspection",
+    tags: ["nfpa-25", "inspection", "sprinklers"],
+    author: "nolan-terry",
+    title: "5-Year Internal Pipe Inspection: NFPA 25 Requirements & Revenue Guide",
+    description: "Everything you need to know about the NFPA 25 five-year internal pipe inspection — what's required, how to perform it, documentation standards, and how to turn it into a high-revenue service line.",
+    date: "2026-04-21",
+    content: `
+# 5-Year Internal Pipe Inspection: NFPA 25 Requirements & Revenue Guide
+
+The five-year internal pipe inspection is one of the most overlooked — and most profitable — services in fire protection. NFPA 25 requires it. Most building owners don't know about it. And most fire protection contractors don't actively sell it.
+
+That means the contractors who DO offer this service own a high-value niche with minimal competition.
+
+## What NFPA 25 Requires
+
+Per NFPA 25 §14.2, every five years you must perform an internal inspection of sprinkler piping to:
+- Assess the internal condition of piping
+- Identify obstructions, scale, MIC, foreign materials, or organic growth
+- Determine if an obstruction investigation (Chapter 14) is needed
+- Verify system integrity hasn't degraded
+
+### Where to Inspect
+Open the system at four representative points:
+1. **System valve** — at the riser (main feed point)
+2. **Cross main** — middle of the system
+3. **Branch line end** — dead-end farthest from riser
+4. **Trapped section** — any low point or geometry that would collect debris
+
+### What to Look For
+- Scale, rust, or tuberculation buildup
+- MIC deposits (distinctive mounded or nodular growths)
+- Foreign materials (construction debris, insects, sediment)
+- Pipe wall thinning
+- Galvanic corrosion at dissimilar metal connections
+- Organic growth or biological film
+- Ice damage residue
+- Standing water in dry system piping
+
+## The Inspection Process
+
+### Preparation
+1. **Schedule with building management** — system will be impaired during inspection
+2. **File impairment notice** — per NFPA 25 Chapter 15
+3. **Arrange fire watch** — if inspection will take >4 hours on a single impairment
+4. **Gather tools:**
+   - Pipe wrench set
+   - Thread sealant (Teflon tape + pipe dope)
+   - Inspection mirror and flashlight
+   - Camera (macro lens helpful)
+   - Sample containers (clear, sealable)
+   - Ruler/caliper for measurements
+   - Drain bucket
+   - Drop cloths for water management
+
+### Opening Points
+The 4-point inspection method:
+
+**Point 1: Riser/System Valve**
+- Drain the system
+- Open pipe at union or flange near riser
+- Inspect internal surface
+- Photograph
+- Note pipe material, size, and condition
+
+**Point 2: Cross Main**
+- Access at a drain connection, union, or by removing a section
+- If no existing access point, cut pipe and install a union for future inspections (sell this as an upgrade)
+- Inspect and photograph
+
+**Point 3: Branch Line End**
+- Remove end sprinkler head
+- Inspect inside of branch line through head opening
+- Use inspection mirror and light
+- Check for standing water, sediment, corrosion
+
+**Point 4: Trapped/Low Point**
+- Identify lowest point in system (often at changes of direction, basement-level cross mains)
+- Open at drain or union
+- This is where debris collects — often the worst finding
+
+### Documentation Per Point
+For each inspection location, record:
+- Location description and pipe size/material
+- Photo of external condition
+- Photo of internal condition (before disturbing)
+- Measurement of any buildup (thickness in mm/inches)
+- Description: clean / light scale / moderate deposits / heavy obstruction
+- Sample collected? (Y/N — if notable material found)
+- Pipe wall thickness reading if possible (ultrasonic UT for steel)
+
+## Grading Internal Condition
+
+Use a consistent grading system in your reports:
+
+| Grade | Condition | Description | Action |
+|-------|-----------|-------------|--------|
+| A | Excellent | Clean interior, light surface oxidation only | No action — re-inspect in 5 years |
+| B | Good | Light scale or deposits, <10% ID reduction | Monitor — re-inspect in 5 years |
+| C | Fair | Moderate deposits, 10-25% ID reduction | Flush system, re-inspect in 3 years |
+| D | Poor | Heavy deposits, 25-50% ID reduction | Obstruction investigation required, consider remediation |
+| F | Critical | >50% ID reduction, system function compromised | Immediate impairment, re-pipe required |
+
+## Turning It Into Revenue
+
+### The Sales Conversation
+
+Most building owners/managers have never heard of the 5-year internal inspection. Here's how to bring it up:
+
+**During routine annual inspection:**
+"Mr. Johnson, your system was installed in [year]. NFPA 25 requires a 5-year internal pipe inspection to check for obstructions and corrosion inside the piping. Looking at our records, this hasn't been done. I'd like to schedule it — it protects you from both code violations and catastrophic system failure."
+
+**In your inspection report:**
+Add a standing recommendation: "5-year internal pipe inspection due [date]. Per NFPA 25 §14.2, internal piping must be inspected every 5 years."
+
+### Pricing
+
+| System Size | Estimated Time | Price Range |
+|-------------|---------------|-------------|
+| Small (1 riser, <200 heads) | 4-6 hours | $1,200-$2,500 |
+| Medium (2-4 risers, 200-500 heads) | 6-12 hours | $2,500-$5,000 |
+| Large (5+ risers, 500+ heads) | 1-3 days | $5,000-$15,000 |
+| Campus/complex | Multiple days | $10,000-$50,000 |
+
+### Upsell Opportunities
+Every 5-year inspection creates follow-up work:
+
+- **Install inspection unions** ($200-$500 per point) — "Let me add access points so future inspections are faster and cheaper"
+- **Flushing service** ($500-$3,000) — if Grade C or worse
+- **Corrosion monitoring** ($300-$1,000/year) — install coupons for ongoing tracking
+- **Obstruction investigation** ($2,000-$8,000) — if Grade D findings
+- **Pipe section replacement** ($2,000-$50,000+) — if Grade F
+- **Nitrogen system** ($5,000-$25,000) — for dry systems with MIC risk, recommend nitrogen inerting
+
+### Targeting the Backlog
+
+Most buildings have NEVER had a 5-year inspection. That's a massive untapped market:
+- Any building with fire sprinklers installed before 2021 is due
+- Many installed before 2016 are now overdue for their SECOND 5-year inspection
+- AHJ enforcement varies — but insurance companies are increasingly asking for documentation
+
+## Common Findings by System Age
+
+| System Age | Typical Findings |
+|------------|-----------------|
+| 0-10 years | Usually Grade A-B, construction debris if never flushed after install |
+| 10-20 years | Grade B-C, light scale beginning, dead legs showing deposits |
+| 20-40 years | Grade C-D common, moderate to heavy scale, MIC possible |
+| 40-60 years | Grade D-F not uncommon, heavy corrosion, tuberculation |
+| 60+ years | Often Grade F, significant capacity reduction, re-pipe candidates |
+
+## Insurance & Legal Protection
+
+The 5-year inspection creates a documented record that:
+- System was assessed per NFPA 25
+- Internal condition was acceptable (or deficiencies were documented and remediated)
+- Building owner met their code obligations
+- Contractor fulfilled their professional responsibility
+
+Without this documentation, a building owner has no defense if a system fails during a fire and investigation reveals internal obstructions that should have been caught.
+
+## Pro Tips
+
+1. **Batch inspections** — offer portfolio pricing to property management companies
+2. **Schedule in slow months** — February/March when annual inspections are lighter
+3. **Photograph everything** — before and after at each point
+4. **Keep a reference library** — photos of Grade A-F for comparison in proposals
+5. **Track by building** — "Last 5-year: 2021, Next due: 2026" in your CRM
+6. **Use it to find MIC early** — buildings on well water or poor municipal supply are high-risk
+
+[Track 5-year inspections and schedule follow-ups with FireLog →](https://app.firelogai.com)
+`,
+  },
 ];
